@@ -65,6 +65,8 @@ public class Casting {
         System.out.println(aa.a);
 
         // Which class does this variable refer to?
+        //Class A
+        // A.a
         System.out.println(((A) aa).a);
 
         // What forces us to define these methods in the AA class?

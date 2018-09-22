@@ -1,153 +1,209 @@
 import java.util.*;
-class Account {
-    String name, acc_type;
-    int Acc_num, Acc_Balance;
 
-    Account() {
+enum AccountType {
+    Savings, Checking, Credit
+}
 
+interface AssetAccounts{};
+interface LiabilityAccounts{};
+
+abstract class Account {
+    public String accountHolder;
+    public int accountNumber;
+    public double accountBalance;
+    public double creditAmount;
+
+    Account(String accountHolder, Double accountBalance) {
+        this.accountHolder = accountHolder;
+        this.accountNumber = new Random().nextInt(100000000);
+        if (accountType() == AccountType.Credit)
+            this.creditAmount = accountBalance;
+        else
+            this.accountBalance = accountBalance;
     }
 
-    Account(String n, int acc_num, int b, String a_t) {
-        name = n;
-        Acc_num = acc_num;
-        Acc_Balance = b;
-        acc_type = a_t;
-    }
-} // end class
+    public abstract AccountType accountType();
 
-class create_account extends Account {
-    create_account(String n, int acc_num, int b, String a_t) { // pass name and account type
-        name = n;
-        Acc_num = acc_num;
-        Acc_Balance = b;
-        acc_type = a_t;
+    public void deposit(double amount) {
+        accountBalance += amount;
     }
 
-    create_account() {
-        super();
+    public void credit(double amount) {
+        creditAmount += amount;
     }
 
-    void insert(String n, int acc_num, String a_t) { // input user name, account number and type
-        name = n;
-        acc_type = a_t;
-        Acc_num = acc_num; // generate random number
-        Acc_Balance = 0;
+    public double withdraw(double withdrawAmount) {
+        accountBalance -= withdrawAmount;
+        return accountBalance;
     }
 
-    void display_details() {
-        System.out.println("Depositor Name :" + name);
-        System.out.println("Account Number : " + Acc_num);
-        System.out.println("Account Balance : " + Acc_Balance);
-        System.out.println("Account Type : " + acc_type);
+    public void display_details() {
+        System.out.println("Depositor Name :" + accountHolder);
+        System.out.println("Account Number : " + accountNumber);
+        System.out.println("Account Type : " + accountType());
+        if (accountType() == AccountType.Credit)
+            System.out.println("Amount owed : " + creditAmount);
+        else
+            System.out.println("Account Balance : " + accountBalance);
+    }
+}
+
+class SavingsAccount extends Account implements AssetAccounts {
+    SavingsAccount(String accountHolder, Double accountBalance) {
+        super(accountHolder, accountBalance);
     }
 
-    void deposite(int acc_num, int money) {
-        Acc_Balance = money;
+    @Override
+    public AccountType accountType() {
+        return AccountType.Savings;
+    }
+}
+
+class CheckingAccount extends Account implements AssetAccounts {
+    CheckingAccount(String accountHolder, Double accountBalance) {
+        super(accountHolder, accountBalance);
     }
 
-    int withdraw(int withd) {
-        Acc_Balance = Acc_Balance - withd;
-        return Acc_Balance;
+    @Override
+    public AccountType accountType() {
+        return AccountType.Checking;
+    }
+}
+
+class CreditAccount extends Account implements LiabilityAccounts {
+    CreditAccount(String accountHolder, Double accountBalance) {
+        super(accountHolder, accountBalance);
     }
 
-} // end class
+    @Override
+    public AccountType accountType() {
+        return AccountType.Credit;
+    }
+}
 
 public class Bank {
     public static void main(String args[]) {
-        String user_name = null, type;
-        type = null;
-        int balance = 0, tmp = 0;
-        int withd = 0, cb = 0;
-// to generate Random Account Number
-        int aNumber = 0;
-        aNumber = (int) ((Math.random() * 9000) + 1000);
-
-        create_account user = new create_account("user", 0, 0, "savings"); // initilaize -- name,acc_number,Balance,Type
-
+        Vector<Account> accounts = new Vector<>();
         Scanner in = new Scanner(System.in);
-        Scanner strng = new Scanner(System.in);
         int userChoice;
         boolean quit = false;
-
         do {
-            System.out.println("1. Create Account");
-            System.out.println("2. Deposit money");
-            System.out.println("3. Withdraw money");
-            System.out.println("4. Check balance");
-            System.out.println("5. Display Account Details");
-            System.out.println("0. to quit: \n");
+            System.out.println("  1.   time - pass certain amount of time\n" +
+                    "  2.   open - open a new account\n" +
+                    "  3.   close - close an account\n" +
+                    "  4.   credit - credit an account\n" +
+                    "  5.   debit - debit an account\n" +
+                    "  6.   summary - display current bank accounts\n" +
+                    "  7.   exit - exit program");
             System.out.print("Enter Your Choice : ");
             userChoice = in.nextInt();
             switch (userChoice) {
-
                 case 1:
+                    break;
+                case 2: //open account
+                    Double depositAmmount;
+                    System.out.println("1. Savings Account\n" + "2. Checking Account\n" + "3. Credit Account\n");
                     System.out.print("Enter your Name : ");
-                    user_name = strng.nextLine();
-                    System.out.print("Enter Accout Type : ");
-                    type = in.next();
-                    user.insert(user_name, aNumber, type);  // inserted
-                    System.out.println("\n\tYour Account Details\n\tDont Forget Account Number\n");
+                    String accountHolder = new Scanner(System.in).nextLine();
+                    System.out.print("Enter account Type : ");
+                    int choice = in.nextInt();
+                    switch (choice) {
+                        case 1:
+                            System.out.println("\nEnter your initial deposit amount ");
+                            depositAmmount = in.nextDouble();
+                            Account savingsAccount = new SavingsAccount(accountHolder, depositAmmount);
+                            System.out.println("**************************");
+                            System.out.println("\nYour Account Details\nDon,t forget your account number\n");
+                            savingsAccount.display_details();
+                            accounts.add(savingsAccount);
+                            break;
+                        case 2:
+                            System.out.println("\nEnter your initial deposit amount ");
+                            depositAmmount = in.nextDouble();
+                            Account checkingAccount = new CheckingAccount(accountHolder, depositAmmount);
+                            System.out.println("**************************");
+                            System.out.println("\nYour Account Details\nDon,t forget your account number\n");
+                            checkingAccount.display_details();
+                            accounts.add(checkingAccount);
+                            break;
+                        case 3:
+                            System.out.println("\nEnter your amount of credit ");
+                            Double creditAmmount = in.nextDouble();
+                            Account creditAccount = new CreditAccount(accountHolder, creditAmmount);
+                            System.out.println("**************************");
+                            System.out.println("\nYour Account Details\nDon,t forget your account number\n");
+                            creditAccount.display_details();
+                            accounts.add(creditAccount);
+                            break;
+                    }
                     System.out.println("**************************");
-                    user.display_details();
                     break;
 
-                case 2: // deposite
+                case 3: // close account
                     System.out.print("Enter your account Number : ");
-                    tmp = in.nextInt();
-                    if (tmp == user.Acc_num) {
-                        System.out.print("Enter Amount Of Money : ");
-                        balance = in.nextInt();
-                        user.Acc_Balance = balance;
-                        System.out.println("\t Successfully Deposited.");
-                    } else
-                        System.out.println("Wrong Accoount Number.");
-                    break;
-
-                case 3: // withdraw money
-                    System.out.print("Enter your account Number : ");
-                    tmp = in.nextInt();
-
-                    if (tmp == user.Acc_num) {
-                        if (user.Acc_Balance == 0)
-                            System.out.print("Your Account is Empty.");
-
-                        else {
-                            System.out.print("Enter Amout Of Money : ");
-                            withd = in.nextInt();
-
-                            if (withd > user.Acc_Balance) {
-                                System.out.print("Enter Valid Amout of Money : ");
-                                withd = in.nextInt();
-                            } else
-                                cb = user.withdraw(withd);
-                            System.out.println("Your Current Balance : " + cb);
+                    int accountNumberToBeDeleted = in.nextInt();
+                    for (Account account : accounts) {
+                        if (account.accountNumber == accountNumberToBeDeleted) {
+                            System.out.println("**************************");
+                            System.out.println("\nYour Account details, which is being deleted.\n");
+                            account.display_details();
+                            accounts.remove(account);
+                            System.out.println("**************************");
                         }
-                    } else
-                        System.out.println("Wrong Accoount Number.");
+                    }
                     break;
 
-                case 4: // check balance
+                case 4: // Credit an account
+                    System.out.print("Enter your account Number : ");
+                    int accountNumberToBeCredited = in.nextInt();
 
-                    System.out.print("Enter your Account Number : ");
-                    tmp = in.nextInt();
-
-                    if (tmp == user.Acc_num) {
-                        System.out.println("Your Current Balance : " + user.Acc_Balance);
-                    } else
-                        System.out.println("Wrong Accoount Number.");
+                    for (Account account : accounts) {
+                        if (account.accountNumber == accountNumberToBeCredited && account.accountType() == AccountType.Credit) {
+                            System.out.println("**************************");
+                            System.out.println("\nYour Account details, which is being Credited.\n");
+                            account.display_details();
+                            System.out.println("\nEnter your amount of credit :");
+                            Double creditAmount = in.nextDouble();
+                            System.out.println("Previous credit amount : " + account.creditAmount);
+                            account.credit(creditAmount);
+                            account.display_details();
+                            System.out.println("**************************");
+                        }
+                    }
                     break;
 
-                case 5: // display all info
+                case 5: // debit an account
 
-                    System.out.print("Enter your Account Number :");
-                    tmp = in.nextInt();
-                    if (tmp == user.Acc_num) {
-                        user.display_details();
-                    } else
-                        System.out.println("Wrong Accoount Number.");
+                    System.out.print("Enter your account Number : ");
+                    int accountNumberToBeDebited = in.nextInt();
 
+                    for (Account account : accounts) {
+                        if (account.accountNumber == accountNumberToBeDebited && account.accountType() != AccountType.Credit) {
+                            System.out.println("**************************");
+                            System.out.println("\nYour Account details, which is being Debited.\n");
+                            account.display_details();
+                            System.out.println("\nEnter your amount of debit :");
+                            Double debitAmount = in.nextDouble();
+                            System.out.println("Previous debit amount : " + account.accountBalance);
+                            account.deposit(debitAmount);
+                            account.display_details();
+                            System.out.println("**************************");
+                        }
+                    }
                     break;
-                case 0:
+
+                case 6: // display all info
+                    if(accounts.size() > 0) {
+                        for (Account account : accounts) {
+                            System.out.println("**************************");
+                            account.display_details();
+                            System.out.println("**************************");
+                        }
+                    }
+                    else
+                        System.out.println("No accounts created yet !");
+                    break;
+                case 7:
                     quit = true;
                     break;
                 default:
@@ -157,7 +213,5 @@ public class Bank {
             System.out.println("\n");
         } while (!quit);
         System.out.println("Thanks !");
-
-    }//  end main function
-
-} //  end mian class
+    }
+}
