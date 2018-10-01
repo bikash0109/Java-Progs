@@ -1,7 +1,7 @@
 import java.util.Random;
 
 // Abstract of an Animal, its basic methods
-public abstract class Animal extends Zoo implements Carnivore, Herbivore{
+public abstract class Animal extends Zoo {
     private String animalName;
 
     public Animal() {
@@ -16,12 +16,7 @@ public abstract class Animal extends Zoo implements Carnivore, Herbivore{
                 + "\n********************************************************************************************************************************\n";
     }
 
-    public String eat() {
-        return "I am a  " + animalSpecies() +
-                "\nMy name is " + animalName + (animalType() == AnimalType.Carnivore ?
-                "\n" + this.goHunting() : animalType() == AnimalType.Herbivore ? "\n" + this.goGrazing() :
-                "\n" + this.goHunting() +" and " + this.goGrazing());
-    }
+    public abstract String eat();
 
     public String goHome() {
         return "I am a  " + animalSpecies() +
@@ -51,15 +46,5 @@ public abstract class Animal extends Zoo implements Carnivore, Herbivore{
     public String location(){
         return animalType() == AnimalType.Carnivore ? "Hunting near river" : animalType() == AnimalType.Herbivore
                 ? "Grazing on the hill top" : "In open range";
-    }
-
-    @Override
-    public String goGrazing(){
-        return "I am Grazing !";
-    }
-
-    @Override
-    public String goHunting() {
-        return "I am Hunting !";
     }
 }

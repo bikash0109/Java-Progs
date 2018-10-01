@@ -28,7 +28,7 @@ public class Zoo {
                         " are you hungry ? \n" + animal.animalSpecies() + ": Yes");
                 System.out.println(animal.animalType() == AnimalType.Carnivore ? "Go hunting ... !" : animal.animalType() == AnimalType.Herbivore
                         ? "Go Grazing ... !" : "Go Hunting or Grazing ... !");
-                animal.eat();
+                System.out.println(animal.eat());
                 animal.location();
             }
             System.out.println("*************************************************************\n");

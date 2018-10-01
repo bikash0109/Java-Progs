@@ -1,4 +1,4 @@
-public class Skunk extends Animal{
+public class Skunk extends Animal implements Carnivore, Herbivore{
     public Skunk(String name) {
         super(name);
     }
@@ -16,5 +16,20 @@ public class Skunk extends Animal{
     @Override
     public String home() {
         return "woodpiles";
+    }
+
+    @Override
+    public String goGrazing(){
+        return "I am Grazing !";
+    }
+
+    @Override
+    public String goHunting() {
+        return "I am Hunting !";
+    }
+
+    @Override
+    public String eat(){
+        return goHunting() + " and " + goGrazing();
     }
 }

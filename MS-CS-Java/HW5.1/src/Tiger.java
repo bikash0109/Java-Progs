@@ -1,5 +1,5 @@
 // A tiger class
-public class Tiger extends Animal {
+public class Tiger extends Animal implements Carnivore{
 
     public Tiger(String name) {
         super(name);
@@ -18,5 +18,15 @@ public class Tiger extends Animal {
     @Override
     public String home() {
         return  "den";
+    }
+
+    @Override
+    public String goHunting() {
+        return "I am Hunting !";
+    }
+
+    @Override
+    public String eat(){
+        return goHunting();
     }
 }

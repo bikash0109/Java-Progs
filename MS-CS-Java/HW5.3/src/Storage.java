@@ -94,7 +94,7 @@ public class Storage<T> {
             previous = current;
             current = current.next;
             if (current == null) {
-                break;
+                break; // if index is out of bounds, break and assign that to be the current node.
             }
             i++;
         }
@@ -182,7 +182,11 @@ public class Storage<T> {
     }
 
     public static void main(String[] args) {
-        StorageTest.test();
+        Storage<Integer> intList = new Storage<>();
+        intList.addFirst(4);
+        intList.addFirst(5);
+        intList.add(7, 6);
+        //StorageTest.test();
     }
 }
 

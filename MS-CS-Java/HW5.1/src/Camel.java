@@ -1,4 +1,4 @@
-public class Camel extends Animal {
+public class Camel extends Animal implements Herbivore{
     public Camel(String name) {
         super(name);
     }
@@ -16,5 +16,15 @@ public class Camel extends Animal {
     @Override
     public String home() {
         return "stables";
+    }
+
+    @Override
+    public String goGrazing(){
+        return "I am Grazing !";
+    }
+
+    @Override
+    public String eat(){
+        return goGrazing();
     }
 }

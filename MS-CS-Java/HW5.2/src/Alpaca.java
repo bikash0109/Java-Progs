@@ -1,4 +1,4 @@
-public class Alpaca extends Animal {
+public class Alpaca extends Animal implements Herbivore{
     public Alpaca(String name) {
         super(name);
     }
@@ -16,5 +16,15 @@ public class Alpaca extends Animal {
     @Override
     public String home() {
         return "stables";
+    }
+
+    @Override
+    public String goGrazing(){
+        return "I am Grazing !";
+    }
+
+    @Override
+    public String eat(){
+        return goGrazing();
     }
 }

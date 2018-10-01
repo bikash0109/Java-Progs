@@ -1,4 +1,4 @@
-public class PolarBear extends Animal {
+public class PolarBear extends Animal implements Carnivore {
     public PolarBear(String name) {
         super(name);
     }
@@ -16,5 +16,15 @@ public class PolarBear extends Animal {
     @Override
     public String home() {
         return "ice cave";
+    }
+
+    @Override
+    public String goHunting() {
+        return "I am Hunting !";
+    }
+
+    @Override
+    public String eat(){
+        return goHunting();
     }
 }

@@ -1,5 +1,5 @@
 // A gazelle class
-public class Gazelle extends Animal {
+public class Gazelle extends Animal implements Herbivore {
     public Gazelle(String name) {
         super(name);
     }
@@ -12,5 +12,15 @@ public class Gazelle extends Animal {
     @Override
     public String animalSpecies() {
         return "Gazelle";
+    }
+
+    @Override
+    public String goGrazing(){
+        return "I am Grazing !";
+    }
+
+    @Override
+    public String eat(){
+        return goGrazing();
     }
 }
