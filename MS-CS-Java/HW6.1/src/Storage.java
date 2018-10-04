@@ -11,6 +11,8 @@
  * */
 
 
+import java.util.*;
+
 // The generic storage class
 public class Storage<T> {
 
@@ -31,12 +33,16 @@ public class Storage<T> {
     public void addFirst(T value) {
         // create a new node to be added at the beginning.
         Node<T> newNode = new Node<>(value);
-        Node<T> temp = head;
-        // set the new node's next to the current head.
-        newNode.next = head;
-        // make the incoming node as the head node.
-        tail = temp;
-        head = newNode;
+        if (head == null) {
+            head = newNode;
+            tail = head;
+        } else {
+            Node<T> temp = head;
+            // set the new node's next to the current head.
+            newNode.next = head;
+            // make the incoming node as the head node.
+            head = newNode;
+        }
     }
 
     // Adds a new node to the end of the list
@@ -100,6 +106,16 @@ public class Storage<T> {
         }
         newNode.next = current;
         previous.next = newNode;
+    }
+
+    public boolean addAll(Collection<? extends T> collection) {
+        Iterator<? extends T> itr = collection.iterator();
+        if (head.value.getClass().equals(itr.next().getClass())) {
+            while (itr.hasNext()) {
+                add(itr.next());
+            }
+        }
+        return true;
     }
 
     // removes the head (first) from the list
@@ -185,7 +201,17 @@ public class Storage<T> {
         Storage<Integer> intList = new Storage<>();
         intList.addFirst(4);
         intList.addFirst(5);
-        intList.add(7, 6);
-        //StorageTest.test();
+        intList.addFirst(6);
+        intList.addFirst(7);
+        intList.addFirst(8);
+        System.out.println(intList);
+        intList.addLast(9);
+        System.out.println(intList);
+//        ArrayList<Integer> intList2 = new ArrayList<>();
+//        var a = intList2.getClass();
+//        var b = intList.getClass();
+//        intList2.add(9);
+//        intList2.add(10);
+//        intList.addAll(intList2);
     }
 }
