@@ -57,9 +57,7 @@ public class Storage<T> {
         Node<T> newNode = new Node<>(value);
         // if head is pointing to nothing, and head has no data, list is empty.
         if (head == null) {
-            head = newNode;
-            tail = newNode;
-            tail.next = null;
+            addFirst(value);
         } else if (head.next == null && head.value != null) {  // if head is pointing to nothing, and head has data, append at the end.
             head.next = newNode;
             tail = newNode;
@@ -77,14 +75,9 @@ public class Storage<T> {
         //create new node.
         Node<T> newNode = new Node<>(value);
         newNode.next = null;
-        if (head == null) {
-            //if head is null and index is zero then exit.
-            if (index != 0) {
-                return;
-            } else { //node set to the head.
-                head = newNode;
-                return;
-            }
+        if (head == null && index == 0) {
+            addFirst(value);
+            return;
         }
         if (head != null && index == 0) { // have to make head as next item, and incoming node as head
             newNode.next = head;
@@ -199,13 +192,16 @@ public class Storage<T> {
 
     public static void main(String[] args) {
         Storage<Integer> intList = new Storage<>();
-        intList.addFirst(4);
-        intList.addFirst(5);
-        intList.addFirst(6);
-        intList.addFirst(7);
-        intList.addFirst(8);
+        intList.addLast(1);
+        intList.addLast(2);
+        intList.addFirst(0);
+//        intList.addFirst(4);
+//        intList.addFirst(5);
+//        intList.addFirst(6);
+//        intList.addFirst(7);
+//        intList.addFirst(8);
         System.out.println(intList);
-        intList.addLast(9);
+        //intList.addLast(9);
         System.out.println(intList);
 //        ArrayList<Integer> intList2 = new ArrayList<>();
 //        var a = intList2.getClass();
