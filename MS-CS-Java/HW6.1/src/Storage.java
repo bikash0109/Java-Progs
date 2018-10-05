@@ -10,9 +10,6 @@
  * This program implements a Storage class, using generics. Typically LinkedList implementation.
  * */
 
-
-import java.util.*;
-
 // The generic storage class
 public class Storage<T> {
 
@@ -37,11 +34,12 @@ public class Storage<T> {
             head = newNode;
             tail = head;
         } else {
-            Node<T> temp = head;
-            // set the new node's next to the current head.
-            newNode.next = head;
-            // make the incoming node as the head node.
-            head = newNode;
+            if (!contains(value)) {
+                // set the new node's next to the current head.
+                newNode.next = head;
+                // make the incoming node as the head node.
+                head = newNode;
+            }
         }
     }
 
@@ -59,19 +57,27 @@ public class Storage<T> {
         if (head == null) {
             addFirst(value);
         } else if (head.next == null && head.value != null) {  // if head is pointing to nothing, and head has data, append at the end.
-            head.next = newNode;
-            tail = newNode;
-            tail.next = null;
+            if (!contains(value)) {
+                head.next = newNode;
+                tail = newNode;
+                tail.next = null;
+            }
         } else {
-            newNode.next = null; // since, this will be the last node, make its next as null.
-            Node<T> last = tail;
-            last.next = newNode;
-            tail = newNode;
+            if (!contains(value)) {
+                newNode.next = null; // since, this will be the last node, make its next as null.
+                Node<T> last = tail;
+                last.next = newNode;
+                tail = newNode;
+            }
         }
     }
 
     // Adds a new node to specific index
     public void add(int index, T value) {
+        if (index > size() - 1) {
+            System.out.println("Index greater than the size of the Storage.");
+            return;
+        }
         //create new node.
         Node<T> newNode = new Node<>(value);
         newNode.next = null;
@@ -80,35 +86,48 @@ public class Storage<T> {
             return;
         }
         if (head != null && index == 0) { // have to make head as next item, and incoming node as head
-            newNode.next = head;
-            head = newNode;
+            if (!contains(value)) {
+                newNode.next = head;
+                head = newNode;
+            }
             return;
         }
-
-        // Insert between the current and previous node.
-        Node<T> current = head;
-        Node<T> previous = null;
-        int i = 0;
-        while (i < index) {
-            previous = current;
-            current = current.next;
-            if (current == null) {
-                break; // if index is out of bounds, break and assign that to be the current node.
+        if (!contains(value)) {
+            // Insert between the current and previous node.
+            Node<T> current = head;
+            Node<T> previous = null;
+            int i = 0;
+            while (i < index) {
+                previous = current;
+                current = current.next;
+                if (current == null) {
+                    break; // if index is out of bounds, break and assign that to be the current node.
+                }
+                i++;
             }
-            i++;
+            newNode.next = current;
+            previous.next = newNode;
         }
-        newNode.next = current;
-        previous.next = newNode;
     }
 
-    public boolean addAll(Collection<? extends T> collection) {
-        Iterator<? extends T> itr = collection.iterator();
-        if (head.value.getClass().equals(itr.next().getClass())) {
-            while (itr.hasNext()) {
-                add(itr.next());
-            }
+    public boolean addAll(Storage<T> collection) {
+        Node<T> temp = collection.head;
+        while (temp != null) {
+            if (!contains(temp.value))
+                add(temp.value);
+            temp = temp.next;
         }
         return true;
+    }
+
+    boolean contains(Object o) {
+        Node<T> temp = head;
+        while (temp != null) {
+            if (temp.value.equals(o))
+                return true;
+            temp = temp.next;
+        }
+        return false;
     }
 
     // removes the head (first) from the list
@@ -128,6 +147,10 @@ public class Storage<T> {
 
     // removes specific item from the list, (position is determined by index)
     public T remove(int index) {
+        if (index > size() - 1) {
+            System.out.println("Index greater than size.");
+            return null;
+        }
         if (head == null) // handle null pointer exception.
             return null;
         if (index == 0) { // edge case, when index is 0
@@ -148,9 +171,51 @@ public class Storage<T> {
             }
             i++;
         }
-        T returnValue = current.value;
-        previous.next = current.next;
-        return returnValue;
+        if (current != null) {
+            T returnValue = current.value;
+            previous.next = current.next;
+            return returnValue;
+        }
+        return null;
+    }
+
+    public boolean remove(Object o) {
+        if (head == null) {
+            return false;
+        }
+        if (head != null && o.equals(head.value)) {
+            remove();
+            return true;
+        }
+        Node<T> current = head;
+        Node<T> previous = null;
+        while (!o.equals(current.value)) {
+            previous = current;
+            current = current.next;
+            if (current == null) {
+                break;
+            }
+        }
+        if (current != null) {
+            previous.next = current.next;
+            if (previous.next == null)
+                tail = previous;
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removeAll(Storage<T> collection) {
+        boolean itemRemoved = false;
+        Node<T> temp = collection.head;
+        while (temp != null) {
+            if (contains(temp.value)) {
+                remove(temp.value);
+                itemRemoved = true;
+                temp = temp.next;
+            }
+        }
+        return itemRemoved;
     }
 
     // Prints the entire list (only values)
@@ -190,24 +255,42 @@ public class Storage<T> {
         this.head = null;
     }
 
+    public Object[] toArray() {
+        Object[] storageArray = new Object[size()];
+        if (this.size() == 0)
+            return null;
+        Node<T> temp = head;
+        int i = 0;
+        while (temp != null) {
+            storageArray[i] = temp.value;
+            temp = temp.next;
+            i++;
+        }
+        return storageArray;
+    }
+
     public static void main(String[] args) {
-        Storage<Integer> intList = new Storage<>();
-        intList.addLast(1);
-        intList.addLast(2);
-        intList.addFirst(0);
-//        intList.addFirst(4);
-//        intList.addFirst(5);
-//        intList.addFirst(6);
-//        intList.addFirst(7);
-//        intList.addFirst(8);
-        System.out.println(intList);
-        //intList.addLast(9);
-        System.out.println(intList);
-//        ArrayList<Integer> intList2 = new ArrayList<>();
-//        var a = intList2.getClass();
-//        var b = intList.getClass();
-//        intList2.add(9);
-//        intList2.add(10);
-//        intList.addAll(intList2);
+        Storage<Integer> list1 = new Storage();
+        Storage<Integer> list1Elements = new Storage<>();
+        list1Elements.add(1);
+        list1Elements.add(2);
+        list1Elements.add(3);
+        list1Elements.add(4);
+        list1Elements.add(5);
+        list1Elements.add(6);
+        list1Elements.add(7);
+        list1.addAll(list1Elements);
+        System.out.println(list1.head.value);
+        System.out.println(list1.tail.value);
+        System.out.println("First List is. " + list1);
+        Storage<Integer> removeList = new Storage<>();
+        removeList.add(4);
+        removeList.add(5);
+        removeList.add(6);
+        list1.removeAll(removeList);
+        System.out.println(list1.head.value);
+        System.out.println(list1.tail.value);
+        System.out.println("Removed List is. " + list1);
+        System.out.println("Object array. " + list1.toArray());
     }
 }
