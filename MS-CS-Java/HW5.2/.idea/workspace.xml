@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50207c40-6818-49af-9389-962aa09f4bd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW5.1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Aardvark.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Aardvark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Alpaca.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Alpaca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Camel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Camel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Ferret.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Ferret.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Gazelle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Gazelle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Giraffe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Giraffe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Lion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/PolarBear.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/PolarBear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Skunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Skunk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Tiger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Zoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/out/production/HW5.1-5.2/Zoo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Aardvark.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Aardvark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Alpaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Alpaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Camel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Ferret.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Ferret.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Gazelle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Gazelle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Giraffe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Giraffe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/PolarBear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/PolarBear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Skunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Skunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.1/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/src/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW5.2/Aardvark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW5.2/Aardvark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW5.2/Alpaca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW5.2/Alpaca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW5.2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW5.2/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW5.2/PolarBear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW5.2/PolarBear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aardvark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aardvark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alpaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alpaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolarBear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolarBear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.3/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.3/src/Storage.java" afterDir="false" />
-    </list>
+    <list default="true" id="50207c40-6818-49af-9389-962aa09f4bd8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +47,7 @@
     <session id="-553278432">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -119,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -137,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/Fish.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -146,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/Palm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -164,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/src/Zoo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#3806#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
@@ -187,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/AquaticAnimal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+              <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -204,12 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PolarBear.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="240">
               <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -266,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,6 +240,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,12 +297,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15392000" />
+    <option name="totallyTimeSpent" value="15430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25107297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -419,7 +377,7 @@
     <entry file="file://$PROJECT_DIR$/src/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -433,7 +391,7 @@
     <entry file="file://$PROJECT_DIR$/src/AquaticAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -447,14 +405,14 @@
     <entry file="file://$PROJECT_DIR$/src/Fish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Palm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -467,19 +425,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PolarBear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="240">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Zoo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#3806#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />

@@ -45,8 +45,30 @@ public class Storage<T> {
 
     // Adds a new node to the end of the list
     public boolean add(T value) {
-        addLast(value);
-        return true;
+        // create a new node to be added at the end.
+        Node<T> newNode = new Node<>(value);
+        // if head is pointing to nothing, and head has no data, list is empty.
+        if (head == null) {
+            head = newNode;
+            tail = head;
+            return true;
+        } else if (head.next == null && head.value != null) {  // if head is pointing to nothing, and head has data, append at the end.
+            if (!contains(value)) {
+                head.next = newNode;
+                tail = newNode;
+                tail.next = null;
+                return true;
+            }
+        } else {
+            if (!contains(value)) {
+                newNode.next = null; // since, this will be the last node, make its next as null.
+                Node<T> last = tail;
+                last.next = newNode;
+                tail = newNode;
+                return true;
+            }
+        }
+        return false;
     }
 
     // Adds a new node to the end of the list
@@ -112,14 +134,18 @@ public class Storage<T> {
 
     public boolean addAll(Storage<T> collection) {
         Node<T> temp = collection.head;
+        boolean valueAdded = false;
         while (temp != null) {
-            if (!contains(temp.value))
+            if (!contains(temp.value)) {
                 add(temp.value);
+                valueAdded = true;
+            }
             temp = temp.next;
         }
-        return true;
+        return valueAdded;
     }
 
+    // Returns true is passed object is present in the Storage.
     boolean contains(Object o) {
         Node<T> temp = head;
         while (temp != null) {
@@ -179,6 +205,7 @@ public class Storage<T> {
         return null;
     }
 
+    // Returns true is a particular object is removed from the exiting storage.
     public boolean remove(Object o) {
         if (head == null) {
             return false;
@@ -255,6 +282,7 @@ public class Storage<T> {
         this.head = null;
     }
 
+    // Returns the Storage items in form of array.
     public Object[] toArray() {
         Object[] storageArray = new Object[size()];
         if (this.size() == 0)
@@ -267,30 +295,5 @@ public class Storage<T> {
             i++;
         }
         return storageArray;
-    }
-
-    public static void main(String[] args) {
-        Storage<Integer> list1 = new Storage();
-        Storage<Integer> list1Elements = new Storage<>();
-        list1Elements.add(1);
-        list1Elements.add(2);
-        list1Elements.add(3);
-        list1Elements.add(4);
-        list1Elements.add(5);
-        list1Elements.add(6);
-        list1Elements.add(7);
-        list1.addAll(list1Elements);
-        System.out.println(list1.head.value);
-        System.out.println(list1.tail.value);
-        System.out.println("First List is. " + list1);
-        Storage<Integer> removeList = new Storage<>();
-        removeList.add(4);
-        removeList.add(5);
-        removeList.add(6);
-        list1.removeAll(removeList);
-        System.out.println(list1.head.value);
-        System.out.println(list1.tail.value);
-        System.out.println("Removed List is. " + list1);
-        System.out.println("Object array. " + list1.toArray());
     }
 }
