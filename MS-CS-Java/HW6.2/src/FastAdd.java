@@ -1,9 +1,23 @@
-import java.util.Random;
+/*
+ * Program Name: FastAdd.java
+ *
+ * Version :  1.0
+ *
+ * @author: Bikash Roy (br8376)
+ * @author: Tanay Bhardwaj
+ *
+ *
+ * This program implements a generic Storage class. sorts the elements in the Storage class and returns it.
+ * */
 
-class FastAdd<T> implements StorageI<T>{
-    public int size = 0;
-    public Node<T> head = null; // Head of the list
-    public Node<T> tail = null;
+
+class FastAdd<T> implements StorageI<T> {
+    private int size = 0;
+    private Node<T> head = null; // Head of the list
+    private Node<T> tail = null;
+    private Node<T> tempHead = null;
+    private boolean tempHeadAssigned = false;
+
     @Override
     public boolean add(T e) {
         // create a new node to be added at the end.
@@ -37,7 +51,16 @@ class FastAdd<T> implements StorageI<T>{
 
     @Override
     public T get() {
-        return head == null ? null : head.value;
+        if(tempHeadAssigned == false) {
+            tempHead = head;
+            tempHeadAssigned = true;
+        }
+        T returnValue = tempHead == null? null: tempHead.value;
+        if(tempHead != null)
+            tempHead = tempHead.next;
+        else
+            tempHeadAssigned = false;
+        return returnValue;
     }
 
     @Override
@@ -96,35 +119,28 @@ class FastAdd<T> implements StorageI<T>{
         Object[] sortedArray = new Object[size()];
         sortedArray = selectionSort(sortedArray);
         StorageI<T> sortedList = new FastAdd<>();
-        for(Object item: sortedArray){
-            sortedList.add((T)item);
+        for (Object item : sortedArray) {
+            sortedList.add((T) item);
         }
-        this.head = (Node<T>)(((FastAdd<Object>) sortedList)).head;
-        this.tail = (Node<T>)(((FastAdd<Object>) sortedList)).tail;
+        this.head = (Node<T>) (((FastAdd<Object>) sortedList)).head;
+        this.tail = (Node<T>) (((FastAdd<Object>) sortedList)).tail;
     }
 
     public <E extends Comparable<E>> Object[] selectionSort(Object[] sortedArray) {
         sortedArray = this.toArray();
-        for (int j = 0; j < sortedArray.length - 1; j++) {
-            int smallest = j;
-            for (int k = j + 1; k < sortedArray.length; k++) {
-                E item1 = (E)(sortedArray[smallest]);
-                E item2 = (E)(sortedArray[j]);
-                if (item2.compareTo(item1)<=0) {
-                    smallest = k;
-                }
+        for (int i = 0; i < sortedArray.length - 1; i++) {
+            int min_index = i;
+            for (int j = i + 1; j < sortedArray.length; j++) {
+                E item1 = (E) (sortedArray[min_index]);
+                E item2 = (E) (sortedArray[j]);
+                if (item2.compareTo(item1) < 0)
+                    min_index = j;
             }
-            swap(sortedArray, j, smallest);  // swap smallest to front
+            Object temp = sortedArray[min_index];
+            sortedArray[min_index] = sortedArray[i];
+            sortedArray[i] = temp;
         }
         return sortedArray;
-    }
-
-    private <E> void swap(Object[] a, int i, int j) {
-        if (i != j) {
-            Object temp = a[i];
-            a[i] = a[j];
-            a[j] = temp;
-        }
     }
 
     // Prints the entire list (only values)
@@ -142,14 +158,15 @@ class FastAdd<T> implements StorageI<T>{
 
     public static void main(String[] args) {
         StorageI<String> stringList = new FastAdd<>();
-        stringList.add("banish");
-        stringList.add("eden");
-        stringList.add("god");
-        stringList.add("alchemy");
-        stringList.add("caught");
+        stringList.add("b");
+        stringList.add("e");
+        stringList.add("g");
+        stringList.add("a");
+        stringList.add("c");
 
 
         System.out.println("Before sort: " + stringList);
+        System.out.println("Size of Storage: " + stringList.size());
         stringList.sort();
         System.out.println("After sort: " + stringList);
 
@@ -163,7 +180,15 @@ class FastAdd<T> implements StorageI<T>{
 
 
         System.out.println("Before sort: " + intList);
+        System.out.println("Size of Storage: " + intList.size());
         intList.sort();
+
+        var element = intList.get();
+        while(element != null) {
+            System.out.println(element);
+            element = intList.get();
+        }
+
         System.out.println("After sort: " + intList);
     }
 }

@@ -1,11 +1,11 @@
 public interface StorageI<E>  {
-    public boolean add(E e);	// 2
-    public E get();
-    public void clear();		// 2 3
-    public boolean contains(E e);
-    public boolean isEmpty();
-    public void sort();		// 3
-    public int size();		// 2 3
-    public String getClassName();
+    boolean add(E e);	// 2
+    E get();
+    void clear();		// 2 3
+    boolean contains(E e);
+    boolean isEmpty();
+    void sort();		// 3
+    int size();		// 2 3
+    String getClassName();
 }
 
