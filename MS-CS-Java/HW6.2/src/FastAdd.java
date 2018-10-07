@@ -129,7 +129,8 @@ class FastAdd<T> implements StorageI<T> {
         sortedArray = selectionSort(sortedArray);
         StorageI<T> sortedList = new FastAdd<>();
         for (Object item : sortedArray) {
-            sortedList.add((T) item);
+
+            sortedList.add((T)item);
         }
         this.head = (Node<T>) (((FastAdd<Object>) sortedList)).head;
         this.tail = (Node<T>) (((FastAdd<Object>) sortedList)).tail;
