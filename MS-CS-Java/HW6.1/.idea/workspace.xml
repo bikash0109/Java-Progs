@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77f4e0a-345c-4e89-a8ef-1fbd45c7dc48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW6.2/src/FastAddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/FastAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/FastAdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/src/FastAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/src/FastAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/src/StorageI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/src/StorageI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +18,7 @@
     <session id="1425204474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -101,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="122" column="5" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
+            <state relative-caret-position="1649">
+              <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -138,7 +133,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -226,12 +221,12 @@
       <updated>1538611661237</updated>
       <workItem from="1538611662557" duration="647000" />
       <workItem from="1538660939368" duration="24072000" />
-      <workItem from="1538869091931" duration="3357000" />
+      <workItem from="1538869091931" duration="3401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39232000" />
+    <option name="totallyTimeSpent" value="39276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -288,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="122" column="5" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
+        <state relative-caret-position="1649">
+          <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
         </state>
       </provider>
     </entry>
