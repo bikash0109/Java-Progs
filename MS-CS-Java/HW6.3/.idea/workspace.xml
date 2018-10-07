@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d6c2b6-0eb9-4dfb-8301-3a252abf5517" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW6.3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FastSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FastSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StorageI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/FastAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/FastAdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/src/FastAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/src/FastAdd.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +15,7 @@
     <session id="-620705496">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -41,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="441" />
+          <entry key="java" value="482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="441" />
+          <entry key="JAVA" value="482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -60,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FastSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state relative-caret-position="600">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="e#0#3324#0" expanded="true" />
                 <element signature="e#139#140#0" expanded="true" />
@@ -117,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/StorageI.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
-        <option value="$PROJECT_DIR$/src/FastSort.java" />
         <option value="$PROJECT_DIR$/src/FastSortTest.java" />
+        <option value="$PROJECT_DIR$/src/FastSort.java" />
       </list>
     </option>
   </component>
@@ -200,12 +191,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538888410333</updated>
-      <workItem from="1538888411917" duration="5463000" />
+      <workItem from="1538888411917" duration="6029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5463000" />
+    <option name="totallyTimeSpent" value="6029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -224,7 +215,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FastSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="600">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="e#0#3324#0" expanded="true" />
             <element signature="e#139#140#0" expanded="true" />
