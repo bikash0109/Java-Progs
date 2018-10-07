@@ -7,6 +7,8 @@
  * */
 
 public class FastAddTest {
+
+    // Creating test data.
     static int[] unsortedIntArray = new int[]{57, 68, 1, 10, 2001, 1400};
     static String[] unsortedStringArray = new String[]{"Blue", "Black", "Magenta", "Red", "Maroon", "Yellow"};
     static int[] sortedIntArray = new int[]{1, 10, 57, 68, 1400, 2001};
@@ -155,9 +157,5 @@ public class FastAddTest {
             System.err.println("testSort failed");
         if (!testGet())
             System.err.println("testGet failed");
-    }
-
-    public static void main(String args[]) {
-        test();
     }
 }

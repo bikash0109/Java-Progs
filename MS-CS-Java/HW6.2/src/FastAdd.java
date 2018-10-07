@@ -30,35 +30,31 @@ class FastAdd<T> implements StorageI<T> {
             size++;
             return true;
         } else if (head.next == null && head.value != null) {  // if head is pointing to nothing, and head has data, append at the end.
-            if (!contains(e)) {
-                head.next = newNode;
-                tail = newNode;
-                tail.next = null;
-                size++;
-                return true;
-            }
+            head.next = newNode;
+            tail = newNode;
+            tail.next = null;
+            size++;
+            return true;
         } else {
-            if (!contains(e)) {
-                newNode.next = null; // since, this will be the last node, make its next as null.
-                Node<T> last = tail;
-                last.next = newNode;
-                tail = newNode;
-                size++;
-                return true;
-            }
+            newNode.next = null; // since, this will be the last node, make its next as null.
+            Node<T> last = tail;
+            last.next = newNode;
+            tail = newNode;
+            size++;
+            return true;
         }
-        return false;
     }
 
 
+    // This get method returns the value of the nodes , in ordered manner.
     @Override
     public T get() {
-        if(tempHeadAssigned == false) {
+        if (tempHeadAssigned == false) {
             tempHead = head;
             tempHeadAssigned = true;
         }
-        T returnValue = tempHead == null? null: tempHead.value;
-        if(tempHead != null)
+        T returnValue = tempHead == null ? null : tempHead.value;
+        if (tempHead != null)
             tempHead = tempHead.next;
         else
             tempHeadAssigned = false;
@@ -66,19 +62,20 @@ class FastAdd<T> implements StorageI<T> {
     }
 
 
+    // clears the whole list
     @Override
     public void clear() {
-       this.head = null;
-       size = 0;
+        this.head = null;
+        size = 0;
     }
 
 
+    // Checks if a value already exits in the Storage
     @Override
     public boolean contains(T e) {
         Node<T> temp = head;
         while (temp != null) {
             if (temp.value.equals(e)) {
-                System.out.println("The SET contains this item.");
                 return true;
             }
             temp = temp.next;
@@ -87,18 +84,19 @@ class FastAdd<T> implements StorageI<T> {
     }
 
 
+    // Checks if the Storage is empty or not.
     @Override
     public boolean isEmpty() {
         return head == null;
     }
 
-
+    // Returns the size of the Storage
     @Override
     public int size() {
         return size;
     }
 
-
+    // Returns the run time class name
     @Override
     public String getClassName() {
         return this.head.value.getClass().toString();
@@ -120,7 +118,7 @@ class FastAdd<T> implements StorageI<T> {
         return storageArray;
     }
 
-
+    // Sorts the Storage
     @Override
     public void sort() {
         if (this.size == 0) {
@@ -171,42 +169,6 @@ class FastAdd<T> implements StorageI<T> {
 
 
     public static void main(String[] args) {
-        StorageI<String> stringList = new FastAdd<>();
-        stringList.add("black");
-        stringList.add("blue");
-        stringList.add("red");
-        stringList.add("green");
-
-        System.out.println("Before sort: " + stringList);
-        System.out.println("Size of Storage: " + stringList.size());
-        stringList.sort();
-        System.out.println("After sort: " + stringList);
-        System.out.println("Is Empty: " + stringList.isEmpty());
-
-        stringList.clear();
-        System.out.println("After clear call: " + stringList);
-        System.out.println("After clear call -> size: " + stringList.size());
-
-
-        StorageI<Integer> intList = new FastAdd<>();
-        intList.add(5);
-        intList.add(10);
-        intList.add(1);
-        intList.add(1700);
-        intList.add(57);
-
-
-        System.out.println("Before sort: " + intList);
-        System.out.println("Size of Storage: " + intList.size());
-        intList.sort();
-
-        System.out.println("Get Sorted : ");
-        var element = intList.get();
-        while(element != null) {
-            System.out.println(element);
-            element = intList.get();
-        }
-
-        System.out.println("After sort: " + intList);
+        FastAddTest.test();
     }
 }
