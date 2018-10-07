@@ -49,7 +49,7 @@ class FastAdd<T> implements StorageI<T> {
     // This get method returns the value of the nodes , in ordered manner.
     @Override
     public T get() {
-        if (tempHeadAssigned == false) {
+        if (!tempHeadAssigned) {
             tempHead = head;
             tempHeadAssigned = true;
         }
