@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77f4e0a-345c-4e89-a8ef-1fbd45c7dc48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HW6.2/src/FastAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/FastAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/FastAdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/out/production/HW6.2/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.2/src/FastAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/src/FastAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.2/src/StorageI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/src/StorageI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +26,8 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,32 +85,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-end-line="10" selection-end-column="5" />
+            <state>
+              <caret line="10" column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="e#0#6062#0" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#7137#7138#0" expanded="true" />
-                <element signature="e#7192#7193#0" expanded="true" />
-                <element signature="e#7261#7262#0" expanded="true" />
-                <element signature="e#7293#7294#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#4280#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="122" column="5" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -145,7 +138,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -156,7 +149,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,12 +165,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538710737151" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW6.2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -232,17 +226,18 @@
       <updated>1538611661237</updated>
       <workItem from="1538611662557" duration="647000" />
       <workItem from="1538660939368" duration="24072000" />
+      <workItem from="1538869091931" duration="3357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35875000" />
+    <option name="totallyTimeSpent" value="39232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2563966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -280,29 +275,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/Storage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state>
+          <caret line="10" column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#0#4280#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Storage.java">
+    <entry file="file://$PROJECT_DIR$/src/TestStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#6062#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#7137#7138#0" expanded="true" />
-            <element signature="e#7192#7193#0" expanded="true" />
-            <element signature="e#7261#7262#0" expanded="true" />
-            <element signature="e#7293#7294#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="122" column="5" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
         </state>
       </provider>
     </entry>

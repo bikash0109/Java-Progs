@@ -13,10 +13,11 @@
 
 class FastAdd<T> implements StorageI<T> {
     private int size = 0;
-    private Node<T> head = null; // Head of the list
-    private Node<T> tail = null;
+    public Node<T> head = null; // Head of the list
+    public Node<T> tail = null;
     private Node<T> tempHead = null;
     private boolean tempHeadAssigned = false;
+
 
     @Override
     public boolean add(T e) {
@@ -49,6 +50,7 @@ class FastAdd<T> implements StorageI<T> {
         return false;
     }
 
+
     @Override
     public T get() {
         if(tempHeadAssigned == false) {
@@ -63,36 +65,45 @@ class FastAdd<T> implements StorageI<T> {
         return returnValue;
     }
 
+
     @Override
     public void clear() {
-        this.head = null;
+       this.head = null;
+       size = 0;
     }
+
 
     @Override
     public boolean contains(T e) {
         Node<T> temp = head;
         while (temp != null) {
-            if (temp.value.equals(e))
+            if (temp.value.equals(e)) {
+                System.out.println("The SET contains this item.");
                 return true;
+            }
             temp = temp.next;
         }
         return false;
     }
+
 
     @Override
     public boolean isEmpty() {
         return head == null;
     }
 
+
     @Override
     public int size() {
         return size;
     }
 
+
     @Override
     public String getClassName() {
         return this.head.value.getClass().toString();
     }
+
 
     // Returns the Storage items in form of array.
     public Object[] toArray() {
@@ -126,6 +137,7 @@ class FastAdd<T> implements StorageI<T> {
         this.tail = (Node<T>) (((FastAdd<Object>) sortedList)).tail;
     }
 
+
     public <E extends Comparable<E>> Object[] selectionSort(Object[] sortedArray) {
         sortedArray = this.toArray();
         for (int i = 0; i < sortedArray.length - 1; i++) {
@@ -143,6 +155,7 @@ class FastAdd<T> implements StorageI<T> {
         return sortedArray;
     }
 
+
     // Prints the entire list (only values)
     public String toString() {
         if (this.size() == 0)
@@ -156,19 +169,23 @@ class FastAdd<T> implements StorageI<T> {
         return returnValue;
     }
 
+
     public static void main(String[] args) {
         StorageI<String> stringList = new FastAdd<>();
-        stringList.add("b");
-        stringList.add("e");
-        stringList.add("g");
-        stringList.add("a");
-        stringList.add("c");
-
+        stringList.add("black");
+        stringList.add("blue");
+        stringList.add("red");
+        stringList.add("green");
 
         System.out.println("Before sort: " + stringList);
         System.out.println("Size of Storage: " + stringList.size());
         stringList.sort();
         System.out.println("After sort: " + stringList);
+        System.out.println("Is Empty: " + stringList.isEmpty());
+
+        stringList.clear();
+        System.out.println("After clear call: " + stringList);
+        System.out.println("After clear call -> size: " + stringList.size());
 
 
         StorageI<Integer> intList = new FastAdd<>();
@@ -183,6 +200,7 @@ class FastAdd<T> implements StorageI<T> {
         System.out.println("Size of Storage: " + intList.size());
         intList.sort();
 
+        System.out.println("Get Sorted : ");
         var element = intList.get();
         while(element != null) {
             System.out.println(element);
