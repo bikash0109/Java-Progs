@@ -140,7 +140,10 @@ public class TestStorage {
     }
 
     public static void main(String args[]) {
-        test();
-        exampleOfHowToUseIt();
+//        test();
+//        exampleOfHowToUseIt();
+        Storage<Animal> animal = new Storage<>();
+        animal.add(new Animal(1, "Simba"));
+        animal.add(new Animal(1, "Simba"));
     }
 }

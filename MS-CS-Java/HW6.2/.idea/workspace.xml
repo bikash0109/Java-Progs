@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c9d348-de48-4668-b6c8-b7e0d7487b14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HW6.1/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6.1/out/production/HW6.1/TestStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.1/out/production/HW6.1/TestStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6.1/src/TestStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.1/src/TestStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.3/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -16,10 +21,12 @@
     <session id="-424191992">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FastAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="134" column="48" selection-start-line="134" selection-start-column="48" selection-end-line="134" selection-end-column="48" />
+            <state relative-caret-position="485">
+              <caret line="146" column="35" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="35" />
               <folding>
                 <element signature="e#2333#2334#0" expanded="true" />
                 <element signature="e#2368#2369#0" expanded="true" />
@@ -166,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -177,6 +184,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,17 +262,19 @@
       <workItem from="1538774473035" duration="19723000" />
       <workItem from="1538869138728" duration="7624000" />
       <workItem from="1538940486909" duration="436000" />
+      <workItem from="1539205662249" duration="1403000" />
+      <workItem from="1539359657805" duration="1212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32734000" />
+    <option name="totallyTimeSpent" value="35349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -306,8 +315,8 @@
     <entry file="file://$PROJECT_DIR$/src/Storage.java" />
     <entry file="file://$PROJECT_DIR$/src/FastAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="134" column="48" selection-start-line="134" selection-start-column="48" selection-end-line="134" selection-end-column="48" />
+        <state relative-caret-position="485">
+          <caret line="146" column="35" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="35" />
           <folding>
             <element signature="e#2333#2334#0" expanded="true" />
             <element signature="e#2368#2369#0" expanded="true" />
