@@ -1,14 +1,14 @@
-import java.util.ArrayList;
 
-public class Map<K, V> {
+public class Map<K, V>{
 
-    ArrayList<HashNode<K, V>> bucket = new ArrayList<>();
-    int numBuckets = 10;
+    Storage[] bucket;
+    int bucketSize = 10;
     int size;
 
     public Map() {
-        for (int i = 0; i < numBuckets; i++) {
-            bucket.add(null);
+        bucket = new Storage[bucketSize];
+        for (int i = 0; i < bucketSize; i++) {
+            bucket[i] = null;
         }
     }
 
@@ -20,14 +20,24 @@ public class Map<K, V> {
         return size == 0;
     }
 
+    static int ASCIIWordSum(String str)
+    {
+        int sum = 0;
+        for (int i = 0; i < str.length(); i++) {
+            sum += str.charAt(i);
+        }
+        return sum;
+    }
+
     private int getHash(K key) {
-        int hashCod = key.hashCode();
-        return hashCod % numBuckets;
+        int something = (int)Math.sqrt(ASCIIWordSum(key.toString()));
+        return Math.abs(something) % bucketSize;
     }
 
     public V get(K key) {
         int index = getHash(key);
-        HashNode<K, V> head = bucket.get(index);
+        System.out.println(index);
+        Storage<K, V> head = bucket[index];
         while (head != null) {
             if (head.key.equals(key)) {
                 return head.value;
@@ -39,18 +49,18 @@ public class Map<K, V> {
 
     public V remove(K key) {
         int index = getHash(key);
-        HashNode<K, V> head = bucket.get(index);
+        Storage<K, V> head = bucket[index];
         if (head == null) {
             return null;
         }
         if (head.key.equals(key)) {
             V val = head.value;
             head = head.next;
-            bucket.set(index, head);
+            bucket[index] = head;
             size--;
             return val;
         } else {
-            HashNode<K, V> prev = null;
+            Storage<K, V> prev = null;
             while (head != null) {
 
                 if (head.key.equals(key)) {
@@ -68,12 +78,10 @@ public class Map<K, V> {
 
     public void add(K key, V value) {
         int index = getHash(key);
-        HashNode<K, V> traverseNode = bucket.get(index);
-        HashNode<K, V> newNode = new HashNode<>();
-        newNode.key = key;
-        newNode.value = value;
+        Storage<K, V> traverseNode = bucket[index];
+        Storage<K, V> newNode = new Storage<>(key, value);
         if (traverseNode == null) {
-            bucket.set(index, newNode);
+            bucket[index] = newNode;
             size++;
 
         } else {
@@ -83,24 +91,28 @@ public class Map<K, V> {
                     size++;
                     break;
                 }
-                if (traverseNode == null) {
-                    traverseNode = bucket.get(index);
-                    newNode.next = traverseNode;
-                    bucket.set(index, traverseNode);
-                    size++;
-                }
                 traverseNode = traverseNode.next;
             }
-        }
-        if ((1.0 * size) / numBuckets > 0.7) {
-            // make bucket size double
-            ArrayList<HashNode<K, V>> tmp = bucket;
-            bucket = new ArrayList<>();
-            numBuckets = 2 * numBuckets;
-            for (int i = 0; i < numBuckets; i++) {
-                bucket.add(null);
+            if (traverseNode == null) {
+
+//                Entry entryInOldBucket = new Entry(key, value);
+//                entryInOldBucket.next = table[bucket];
+//                table[bucket] = entryInOldBucket;
+
+                newNode.next = bucket[index];
+                bucket[index] = newNode;
+                size++;
             }
-            for (HashNode<K, V> headNode : tmp) {
+        }
+        if ((1.0 * size) / bucketSize > 0.7) {
+            // make bucket size double
+            Storage[] tmp = bucket;
+            bucketSize = 2 * bucketSize;
+            bucket = new Storage[bucketSize];
+            for (int i = 0; i < bucketSize; i++) {
+                bucket[i] = null;
+            }
+            for (Storage<K, V> headNode : tmp) {
                 while (headNode != null) {
                     add(headNode.key, headNode.value);
                     headNode = headNode.next;
@@ -109,12 +121,46 @@ public class Map<K, V> {
         }
     }
 
+    public String printMap() {
+        String elementValue = "";
+        for (Storage<K, V> node : bucket) {
+            if (node != null) {
+                String withNext ="";
+                String withoutNext = "\nKey: " + node.key.toString() + " -> Value: " + node.value.toString();
+                if(node.next != null){
+                    Storage<K, V> nodeTemp = node.next;
+                    while (nodeTemp.next != null){
+                        withNext += "Key:->" +nodeTemp.key.toString() + "Value: ->" + nodeTemp.value.toString();
+                        nodeTemp = nodeTemp.next;
+                    }
+                }
+                elementValue += withoutNext + withNext;
+            }
+        }
+        return elementValue;
+    }
+
     public static void main(String[] args) {
         Map<String, Integer> map = new Map<>();
         map.add("just", 1);
         map.add("like", 2);
         map.add("this", 3);
-        System.out.println(map.get("this"));
+        map.add("just1", 4);
+        map.add("like1", 5);
+        map.add("this1", 6);
+        map.add("just2", 7);
+        map.add("like2", 8);
+        map.add("this2", 9);
+        map.add("just3", 10);
+        map.add("like3", 11);
+        map.add("this4", 12);
+        map.add("just5", 13);
+        map.add("like5", 14);
+        map.add("this5", 15);
+        map.add("just6", 16);
+        map.add("like6", 17);
+        map.add("this6", 18);
+        System.out.println(map.printMap());
+        System.out.println(map.get("like1"));
     }
-
 }
