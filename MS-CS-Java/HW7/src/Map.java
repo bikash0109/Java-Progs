@@ -1,7 +1,6 @@
 public class Map<K, V> {
     Storage[] bucket;
     int bucketSize = 10;
-    int sumHashCode;
 
     public Map() {
         bucket = new Storage[bucketSize];
@@ -10,7 +9,18 @@ public class Map<K, V> {
         }
     }
 
-    static int ASCIIWordSum(String str) {
+    public int getHash(Object key) {
+        String keyAscii;
+        if (key == null) {
+            keyAscii = "null";
+        } else {
+            keyAscii = key.toString();
+        }
+        int asciiWordSum = ASCIIWordSum(keyAscii);
+        return asciiWordSum % (keyAscii.length() * 5);
+    }
+
+    private int ASCIIWordSum(String str) {
         int sum = 0;
         for (int i = 0; i < str.length(); i++) {
             sum += str.charAt(i);
@@ -18,14 +28,8 @@ public class Map<K, V> {
         return sum;
     }
 
-    private int getHash(Object key) {
-        int something = ASCIIWordSum(key.toString());
-        return (something % Math.abs((int) Math.sqrt(bucketSize)) * 8) / 12;
-    }
-
     public V get(Object key) {
         int index = getHash(key);
-        System.out.println(index);
         Storage<K, V> head = bucket[index];
         while (head != null) {
             if (head.key.equals(key)) {
@@ -36,37 +40,61 @@ public class Map<K, V> {
         return null;
     }
 
-    public boolean contains(Object element) {
+    public boolean contains(Object element) throws MyNullPointerException, MyClassCastException {
         int index = getHash(element);
         Storage current = bucket[index];
         while (current != null) {
-            if (current.key.equals(element)) {
-                return true;
+            if (element == null) {
+                if (current.key == element) {
+                    return true;
+                }
+            } else {
+                if (current.key == null) {
+                    if (current.key == element) {
+                        return true;
+                    }
+                } else {
+                    if (current.key.equals(element)) {
+                        return true;
+                    }
+                }
             }
             current = current.next;
         }
         return false;
     }
 
-    public void clear() {
-        this.bucket = new Storage[bucketSize];
-        for (int i = 0; i < bucketSize; i++) {
+    public void clear(int size) {
+        this.bucket = new Storage[size];
+        for (int i = 0; i < size; i++) {
             bucket[i] = null;
         }
     }
 
-    public boolean remove(Object element) {
+    public boolean remove(Object element) throws MyUnsupportedOperationException, MyClassCastException,
+            MyNullPointerException {
         int index = getHash(element);
         Storage current = bucket[index];
         Storage previous = null;
         while (current != null) {
-            if (current.key.equals(element)) {
-                if (previous == null) {
-                    bucket[index] = current.next;
-                } else {
-                    previous.next = current.next;
+            if (element == null) {
+                if (current.key == element) {
+                    if (previous == null) {
+                        bucket[index] = current.next;
+                    } else {
+                        previous.next = current.next;
+                    }
+                    return true;
                 }
-                return true;
+            } else {
+                if (current.key.equals(element)) {
+                    if (previous == null) {
+                        bucket[index] = current.next;
+                    } else {
+                        previous.next = current.next;
+                    }
+                    return true;
+                }
             }
             previous = current;
             current = current.next;
@@ -74,44 +102,57 @@ public class Map<K, V> {
         return false;
     }
 
-    public void add(K key, V value, int size) {
+    public boolean add(K key, V value, int size) throws MyUnsupportedOperationException, MyClassCastException,
+            MyIllegalArgumentException, MyNullPointerException {
+        boolean valueAdded = false;
+        if (this.contains(value)) {
+            return valueAdded;
+        }
         int index = getHash(key);
         Storage<K, V> traverseNode = bucket[index];
         Storage<K, V> newNode = new Storage<>(key, value);
         if (traverseNode == null) {
             bucket[index] = newNode;
-            sumHashCode += bucket[index].hashCode();
+            valueAdded = true;
         } else {
             while (traverseNode != null) {
-                if (traverseNode.key.equals(key)) {
-                    traverseNode.value = value;
-                    break;
+                if (traverseNode.key == null) {
+                    if (traverseNode.key == key) {
+                        traverseNode.value = value;
+                        valueAdded = true;
+                        break;
+                    }
+                } else {
+                    if (traverseNode.key.equals(key)) {
+                        traverseNode.value = value;
+                        valueAdded = true;
+                        break;
+                    }
                 }
                 traverseNode = traverseNode.next;
             }
             if (traverseNode == null) {
                 newNode.next = bucket[index];
                 bucket[index] = newNode;
-                sumHashCode += bucket[index].hashCode();
+                valueAdded = true;
             }
         }
         if ((1.0 * size) / bucketSize > 0.7) {
             // make bucket size double
             Storage[] oldBucket = bucket;
-            bucketSize = 2 * bucketSize;
+            bucketSize = bucketSize + 5;
             bucket = new Storage[bucketSize];
             for (int i = 0; i < bucketSize; i++) {
                 bucket[i] = null;
             }
-            int i = 0;
             for (Storage<K, V> headNode : oldBucket) {
                 while (headNode != null) {
                     add(headNode.key, headNode.value, size);
                     headNode = headNode.next;
                 }
-                i++;
             }
         }
+        return valueAdded;
     }
 
     public Object[] toArray(int size) {
@@ -134,20 +175,51 @@ public class Map<K, V> {
         return storageArray;
     }
 
-    public String printMap() {
-        String elementValue = "";
+    public int calcHash() {
+        int hashSum = 0;
         for (Storage<K, V> node : bucket) {
-            String withNext = "";
-            String withoutNext = node == null ? "\nKey:   -> Value: null" :
-                    "\nKey: " + node.key.toString() + " -> Value: " + node.value.toString();
-            if (node != null && node.next != null) {
-                Storage<K, V> nodeTemp = node.next;
-                while (nodeTemp != null) {
-                    withNext += " Key:-> " + nodeTemp.key.toString() + " -> Value:" + nodeTemp.value.toString();
-                    nodeTemp = nodeTemp.next;
+            if (node != null) {
+                if (node.value == null) {
+                    hashSum += 0;
+                } else {
+                    hashSum += getHash(node.value);
+                }
+                if (node != null && node.next != null) {
+                    Storage<K, V> nodeTemp = node.next;
+                    while (nodeTemp != null) {
+                        if (nodeTemp.value == null) {
+                            hashSum += 0;
+                        } else {
+                            hashSum += getHash(nodeTemp.value);
+                        }
+                        nodeTemp = nodeTemp.next;
+                    }
                 }
             }
-            elementValue += withoutNext + withNext;
+        }
+        return hashSum;
+    }
+
+    public String printMap() {
+        String elementValue = "";
+        int i = 0;
+        for (Storage<K, V> node : bucket) {
+            if (node != null) {
+                String withNext = "";
+                String withoutNext = "\n" + i + ". " + node.value;
+                if (node != null && node.next != null) {
+                    Storage<K, V> nodeTemp = node.next;
+                    while (nodeTemp != null) {
+                        withNext += " -> " + nodeTemp.value;
+                        nodeTemp = nodeTemp.next;
+                    }
+                }
+                elementValue += withoutNext + withNext;
+            } else {
+                String withoutNext = "\n" + i + ". " + node;
+                elementValue += withoutNext;
+            }
+            i++;
         }
         return elementValue;
     }
