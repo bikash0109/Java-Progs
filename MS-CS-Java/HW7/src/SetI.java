@@ -1,6 +1,5 @@
 public interface SetI<E> {
     boolean	add(E e);
-
     boolean	addAll(SetI<? extends E> c);
     boolean	containsAll(SetI<?> c);
     boolean	removeAll(SetI<?> c);
