@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28d6c2b6-0eb9-4dfb-8301-3a252abf5517" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW7/src/MyClassCastException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW7/src/MyIllegalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW7/src/MyNullPointerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW7/src/MyUnsupportedOperationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/HashEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyHashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/HashEntry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/MyHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/notes.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="28d6c2b6-0eb9-4dfb-8301-3a252abf5517" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +51,10 @@
     <session id="1032177466">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FastSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
-              <caret selection-end-line="11" />
+            <state relative-caret-position="272">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="e#0#3316#0" expanded="true" />
               </folding>
@@ -144,6 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,14 +150,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -212,24 +200,25 @@
       <workItem from="1539205665494" duration="571000" />
       <workItem from="1539359659350" duration="597000" />
       <workItem from="1539552062454" duration="615000" />
+      <workItem from="1539562421563" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9508000" />
+    <option name="totallyTimeSpent" value="9523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -242,8 +231,6 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,6 +238,8 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,8 +253,8 @@
     <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home!/jdk.aot/jdk/tools/jaotc/AOTCompilationTask.class" />
     <entry file="file://$PROJECT_DIR$/src/FastSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret selection-end-line="11" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="e#0#3316#0" expanded="true" />
           </folding>
