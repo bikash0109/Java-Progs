@@ -1,7 +1,9 @@
+//A hashMap class for HashSet to map its values.
 public class Map<K, V> {
     Storage[] bucket;
     int bucketSize = 10;
 
+    //default constructor call, bucket is initialized, and made all node as null
     public Map() {
         bucket = new Storage[bucketSize];
         for (int i = 0; i < bucketSize; i++) {
@@ -9,6 +11,7 @@ public class Map<K, V> {
         }
     }
 
+    // Returns an Index
     public int getHash(Object key) {
         String keyAscii;
         if (key == null) {
@@ -20,6 +23,7 @@ public class Map<K, V> {
         return asciiWordSum % (keyAscii.length() * 5);
     }
 
+    // Helper method to calculate ascii values
     private int ASCIIWordSum(String str) {
         int sum = 0;
         for (int i = 0; i < str.length(); i++) {
@@ -28,18 +32,7 @@ public class Map<K, V> {
         return sum;
     }
 
-    public V get(Object key) {
-        int index = getHash(key);
-        Storage<K, V> head = bucket[index];
-        while (head != null) {
-            if (head.key.equals(key)) {
-                return head.value;
-            }
-            head = head.next;
-        }
-        return null;
-    }
-
+    // Checks for a single object in the hashmap, also throws runtime exception, NullPointer and ClassCast
     public boolean contains(Object element) throws MyNullPointerException, MyClassCastException {
         int index = getHash(element);
         Storage current = bucket[index];
@@ -64,6 +57,7 @@ public class Map<K, V> {
         return false;
     }
 
+    // clears the entire list
     public void clear(int size) {
         this.bucket = new Storage[size];
         for (int i = 0; i < size; i++) {
@@ -71,6 +65,7 @@ public class Map<K, V> {
         }
     }
 
+    // remove a single element, also throws runtime exceptions of UnsupportedOperationException and ClassCast
     public boolean remove(Object element) throws MyUnsupportedOperationException, MyClassCastException,
             MyNullPointerException {
         int index = getHash(element);
@@ -102,6 +97,7 @@ public class Map<K, V> {
         return false;
     }
 
+    // adds a single element, also throws runtime exceptions of UnsupportedOperationException , ClassCast, nullPoiner and IllegalArguments
     public boolean add(K key, V value, int size) throws MyUnsupportedOperationException, MyClassCastException,
             MyIllegalArgumentException, MyNullPointerException {
         boolean valueAdded = false;
@@ -137,8 +133,8 @@ public class Map<K, V> {
                 valueAdded = true;
             }
         }
+        //Increase the bucket size
         if ((1.0 * size) / bucketSize > 0.7) {
-            // make bucket size double
             Storage[] oldBucket = bucket;
             bucketSize = bucketSize + 5;
             bucket = new Storage[bucketSize];
@@ -155,6 +151,7 @@ public class Map<K, V> {
         return valueAdded;
     }
 
+    // Convert the hasMap to an array
     public Object[] toArray(int size) {
         Object[] storageArray = new Object[size];
         int i = 0;
@@ -175,6 +172,7 @@ public class Map<K, V> {
         return storageArray;
     }
 
+    // Calculate hashcode for entire HashMap
     public int calcHash() {
         int hashSum = 0;
         for (Storage<K, V> node : bucket) {
@@ -200,6 +198,7 @@ public class Map<K, V> {
         return hashSum;
     }
 
+    // Print the hashmap
     public String printMap() {
         String elementValue = "";
         int i = 0;

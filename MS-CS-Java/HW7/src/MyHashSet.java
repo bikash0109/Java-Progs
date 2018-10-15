@@ -107,6 +107,7 @@ public class MyHashSet<E> implements SetI<E> {
     @Override
     public void clear() {
         map.clear(size);
+        size = 0;
     }
 
     // Convert the hashSet to an array.
@@ -138,41 +139,6 @@ public class MyHashSet<E> implements SetI<E> {
     }
 
     public static void main(String[] args) {
-        SetI<Integer> intHash = new MyHashSet<>();
-        for (int i = 1; i < 19 ; i++){
-            intHash.add(i);
-        }
-        SetI<String> aSet = new MyHashSet<>();
-        SetI<String> bSet = new MyHashSet<>();
-
-        String[] aStrings = {"a", "b", "c"};
-        String[] bStrings = {"A", "B", "C"};
-        aSet.add(aStrings[0]);
-        aSet.add(aStrings[1]);           // setup a, b
-        bSet.add(bStrings[0]);
-        bSet.add(bStrings[1]);           // setup A, B
-
-        System.out.println("aSet = " + aSet);                  // --> a, b
-
-        for (int index = 0; index < aStrings.length; index++) {       // contans a and b, not c
-            System.out.println("does " +
-                    (aSet.contains(aStrings[index]) ? "" : " not ") + "contain: " +
-                    aStrings[index]);
-        }
-        System.out.println("aSet = " + aSet);                  // --> a, b
-
-        System.out.println("aSet.remove(aStrings[0]); = " + aSet.remove(aStrings[0])); // contains b
-        System.out.println("aSet.remove(aStrings[2]); = " + aSet.remove(aStrings[2])); // can not remove x
-        System.out.println("aSet = " + aSet);
-
-        aSet.addAll(bSet);                                      // --> b, A, B
-        System.out.println("aSet = " + aSet);
-
-
-        aSet.add(null);                                         // --> b, A, B, null
-        System.out.println("aSet = " + aSet);
-        System.out.println("aSet.remove(null); = " + aSet.remove(null));       // can remove null
-        System.out.println("aSet = " + aSet);
-        System.out.println("intHash with collisions = " + intHash);
+        MyHashSetTest.test();
     }
 }

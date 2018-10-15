@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e6b3a15-74d9-4dd9-8d42-1b89211e4267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW7/src/HashEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW7/src/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW7/src/MyHashSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/HashNode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/HashNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyClassCastException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyClassCastException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyIllegalArgumentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyIllegalArgumentException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyNullPointerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyNullPointerException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyUnsupportedOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyUnsupportedOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/Storage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW7/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/src/MyClassCastException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyClassCastException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/src/MyHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/src/MyIllegalArgumentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyIllegalArgumentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/src/MyNullPointerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyNullPointerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/src/MyUnsupportedOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyUnsupportedOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/src/SetI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/SetI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/Storage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

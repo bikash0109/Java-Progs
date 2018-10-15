@@ -1,3 +1,4 @@
+//An interface made of subset of Set class of Java
 public interface SetI<E> {
     boolean	add(E e);
     boolean	addAll(SetI<? extends E> c);

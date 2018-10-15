@@ -1,3 +1,4 @@
+//A custom designed storage class, to be used a hash entry node
 public class Storage<K, V> {
     public K key;
     public V value;
