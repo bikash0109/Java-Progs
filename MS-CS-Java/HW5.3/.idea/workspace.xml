@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e6b3a15-74d9-4dd9-8d42-1b89211e4267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW7/src/MyHashSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyClassCastException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyClassCastException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyHashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyIllegalArgumentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyIllegalArgumentException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyNullPointerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyNullPointerException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/MyUnsupportedOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/MyUnsupportedOperationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/out/production/HW7/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/out/production/HW7/Storage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/MyClassCastException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyClassCastException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/MyHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/MyIllegalArgumentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyIllegalArgumentException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/MyNullPointerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyNullPointerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/MyUnsupportedOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/MyUnsupportedOperationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/SetI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/SetI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW7/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/src/Storage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +51,7 @@
     <session id="-749791936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.opened" value="3" />
         </counts>
@@ -113,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="28" />
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -179,7 +163,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,17 +233,17 @@
       <workItem from="1538609600169" duration="834000" />
       <workItem from="1538747164306" duration="1957000" />
       <workItem from="1539460804157" duration="2779000" />
+      <workItem from="1539614409112" duration="566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37619000" />
+    <option name="totallyTimeSpent" value="38185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14306152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14520743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -312,7 +296,7 @@
     <entry file="file://$PROJECT_DIR$/src/Storage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="28" />
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
