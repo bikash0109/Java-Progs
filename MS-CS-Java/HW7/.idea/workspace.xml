@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61a56a3-693e-4c64-9023-dd72a4209afb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HW8.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.1/src/pi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,10 +23,13 @@
     <session id="103765298">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1454">
+            <state relative-caret-position="1485">
               <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
               <folding>
                 <element signature="e#398#399#0" expanded="true" />
@@ -112,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/src/MyHashSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -120,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+            <state relative-caret-position="-46">
+              <caret line="115" column="50" lean-forward="true" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -232,9 +241,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="52" />
+    <option name="y" value="23" />
+    <option name="width" value="1388" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,8 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,13 +269,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539552915608" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW6.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -322,17 +333,20 @@
       <workItem from="1539470932563" duration="19000" />
       <workItem from="1539470971223" duration="41363000" />
       <workItem from="1539614407349" duration="717000" />
+      <workItem from="1539794273950" duration="18000" />
+      <workItem from="1539794362783" duration="54000" />
+      <workItem from="1539875785236" duration="2311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65281000" />
+    <option name="totallyTimeSpent" value="67664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1388" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24368499" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2546495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -342,7 +356,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8458599" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8457831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,6 +397,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyIllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyNullPointerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -390,10 +411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyHashSetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/MyUnsupportedOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -404,9 +425,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyHashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1454">
+        <state relative-caret-position="1485">
           <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
           <folding>
             <element signature="e#398#399#0" expanded="true" />
@@ -421,20 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyIllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyUnsupportedOperationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SetI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -444,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+        <state relative-caret-position="-46">
+          <caret line="115" column="50" lean-forward="true" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
         </state>
       </provider>
     </entry>
