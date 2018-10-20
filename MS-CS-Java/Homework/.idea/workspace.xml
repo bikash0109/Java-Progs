@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da9ddcb-d8d5-4ee2-b0db-916460f08c37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.2/src/Grep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.2/src/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/NormalTests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/Mandelbrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFractal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MultithreadingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/pi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,12 +152,49 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1737054712">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/X_1.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RegExTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="96" column="34" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -212,16 +272,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,18 +297,11 @@
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Casting.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,17 +414,18 @@
       <workItem from="1538144231123" duration="2685000" />
       <workItem from="1538179714383" duration="1647000" />
       <workItem from="1538611450868" duration="153000" />
+      <workItem from="1539951579559" duration="408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174472000" />
+    <option name="totallyTimeSpent" value="174880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20698924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -651,10 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,12 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#72#73#0" expanded="true" />
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,14 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,16 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="190" column="69" selection-start-line="190" selection-start-column="69" selection-end-line="190" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -748,6 +777,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/X_1.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="96" column="34" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

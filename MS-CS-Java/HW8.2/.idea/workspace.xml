@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f06c20-967e-442e-a5d7-4c95e2be32d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW8.2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW8.2/src/Grep.java" afterDir="false" />
+    <list default="true" id="a0a69e4c-3dc8-4254-ac69-3cd342109b56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grep.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/vcs.xml" afterDir="false" />
@@ -20,14 +20,14 @@
       <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW8.1/PiEvenOddImprovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW8.1/PiEvenOddImprovement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW8.1/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW8.1/pi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArgumentMissingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArgumentMissingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmptyFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmptyFileException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NoNumbersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NoNumbersException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PiEvenOddImprovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PiEvenOddImprovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/pi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,41 +38,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="30472072">
+    <session id="-166041432">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="7" />
-          <entry key="txt" value="3" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
+      <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2481" />
-          <entry key="txt" value="66" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2481" />
-          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="java" value="1" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2584" />
+          <entry key="PLAIN_TEXT" value="32" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2584" />
+          <entry key="txt" value="32" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
@@ -80,12 +80,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PiEvenOddImprovement.java">
+        <entry file="file://$PROJECT_DIR$/src/Grep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="2520">
+              <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
               <folding>
-                <element signature="e#0#2877#0" expanded="true" />
+                <element signature="e#0#7676#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -93,40 +93,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NoNumbersException.java">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="92" lean-forward="true" selection-end-column="92" />
-              <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArgumentMissingException.java">
+        <entry file="file://$PROJECT_DIR$/test2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="90" selection-start-column="90" selection-end-column="90" />
-              <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmptyFileException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="50" selection-start-column="50" selection-end-column="50" />
-              <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -140,26 +124,16 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>long</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>int</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FileMissingException.java" />
-        <option value="$PROJECT_DIR$/src/pi.txt" />
-        <option value="$PROJECT_DIR$/src/PiEvenOddImprovement.java" />
-        <option value="$PROJECT_DIR$/src/NoNumbersException.java" />
-        <option value="$PROJECT_DIR$/src/ArgumentMissingException.java" />
-        <option value="$PROJECT_DIR$/src/EmptyFileException.java" />
+        <option value="$PROJECT_DIR$/src/test.txt" />
+        <option value="$PROJECT_DIR$/test1.txt" />
+        <option value="$PROJECT_DIR$/test2.txt" />
+        <option value="$PROJECT_DIR$/src/Grep.java" />
       </list>
     </option>
   </component>
@@ -169,11 +143,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -184,13 +160,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="HW8.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW8.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW8.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW8.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HW8.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW8.2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +173,6 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -219,18 +189,17 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="PiEvenOddImprovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PiEvenOddImprovement" />
-      <module name="HW8.1" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/pi.txt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+    <configuration name="Grep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grep" />
+      <module name="HW8.2" />
+      <option name="PROGRAM_PARAMETERS" value="one test.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PiEvenOddImprovement" />
+        <item itemvalue="Application.Grep" />
       </list>
     </recent_temporary>
   </component>
@@ -239,25 +208,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81f06c20-967e-442e-a5d7-4c95e2be32d7" name="Default Changelist" comment="" />
-      <created>1539794412708</created>
+      <changelist id="a0a69e4c-3dc8-4254-ac69-3cd342109b56" name="Default Changelist" comment="" />
+      <created>1539925171826</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1539794412708</updated>
-      <workItem from="1539794414293" duration="15087000" />
-      <workItem from="1539951347235" duration="489000" />
-      <workItem from="1540049771281" duration="1655000" />
+      <updated>1539925171826</updated>
+      <workItem from="1539925173237" duration="3765000" />
+      <workItem from="1540034657595" duration="17125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17231000" />
+    <option name="totallyTimeSpent" value="20890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23748212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -265,8 +233,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37831324" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4566265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -291,61 +259,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/math/RoundingMode.java">
+    <entry file="file://$PROJECT_DIR$/src/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pi/txt.java" />
-    <entry file="file://$PROJECT_DIR$/src/FileMissingException.java" />
-    <entry file="file://$PROJECT_DIR$/src/pi.txt">
+    <entry file="file://$PROJECT_DIR$/test2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NoNumbersException.java">
+    <entry file="file://$PROJECT_DIR$/test1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="92" lean-forward="true" selection-end-column="92" />
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
           <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArgumentMissingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="90" selection-start-column="90" selection-end-column="90" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmptyFileException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PiEvenOddImprovement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#2877#0" expanded="true" />
+            <element signature="e#0#7676#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

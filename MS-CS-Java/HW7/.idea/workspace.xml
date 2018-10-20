@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61a56a3-693e-4c64-9023-dd72a4209afb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW8.1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW8.1/src/pi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8.2/src/Grep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/NormalTests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/Mandelbrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFractal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MultithreadingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NormalTests/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.1/src/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/pi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,13 +41,13 @@
     <session id="103765298">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,12 +116,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+            <state>
+              <caret selection-end-line="10" selection-end-column="5" />
               <folding>
+                <element signature="e#0#3662#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#431#432#0" expanded="true" />
                 <element signature="e#509#510#0" expanded="true" />
@@ -126,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="115" column="50" lean-forward="true" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
+            <state relative-caret-position="1725">
+              <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -241,11 +260,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="52" />
-    <option name="y" value="23" />
-    <option name="width" value="1388" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -336,17 +353,18 @@
       <workItem from="1539794273950" duration="18000" />
       <workItem from="1539794362783" duration="54000" />
       <workItem from="1539875785236" duration="2311000" />
+      <workItem from="1540052898159" duration="743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67664000" />
+    <option name="totallyTimeSpent" value="68407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2546495" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -390,6 +408,27 @@
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/notes.txt" />
     <entry file="file://$PROJECT_DIR$/src/HashEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/MyHashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SetI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyClassCastException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -418,25 +457,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Storage.java">
+    <entry file="file://$PROJECT_DIR$/src/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyHashSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="1725">
+          <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="10" selection-end-column="5" />
           <folding>
+            <element signature="e#0#3662#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#431#432#0" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
@@ -446,20 +479,6 @@
             <element signature="e#754#755#0" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SetI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="115" column="50" lean-forward="true" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
         </state>
       </provider>
     </entry>

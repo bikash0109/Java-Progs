@@ -1,3 +1,19 @@
+/*
+ * Program Name: PiEvenOddImprovement.java
+ *
+ * Version :  1.0
+ *
+ * @author: Bikash Roy (br8376)
+ * @author: Tanay Bhardwaj
+ *
+ *
+ * This program implements the STDIN file inputstream to read from command line arguments and count the number of odd
+ * and even digits in pi, upto billion digits.
+ *
+ * The file can be a compressed file, Gzip stream is used to decompress that file
+ * */
+
+
 import java.io.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -25,7 +41,7 @@ public class PiEvenOddImprovement {
                     while (num != -1) {
                         char ch = (char) num;
                         if (ch != '.' && Character.isDigit(ch)) {
-                            if (num % 2 == 0)
+                            if ((num & 1) == 0)
                                 evenCount++;
                             else
                                 oddCount++;
