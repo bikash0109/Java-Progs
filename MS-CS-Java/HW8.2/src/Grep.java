@@ -42,25 +42,41 @@ public class Grep {
         }
         Pattern pattern = Pattern.compile(word);
         Matcher matcher = pattern.matcher("");
-        for (String file : fileName) {
-            int count = 0;
-            String line;
-            String matchedLine = "";
-            try {
-                br = new BufferedReader(new FileReader(file));
-            } catch (IOException e) {
-                System.err.println("Cannot read '" + file + "': " + e.getMessage());
+        if(fileName.size() > 0){
+            for (String file : fileName) {
+                int count = 0;
+                String line;
+                String matchedLine = "";
+                try {
+                    br = new BufferedReader(new FileReader(file));
+                } catch (IOException e) {
+                    System.err.println("Cannot read '" + file + "': " + e.getMessage());
+                }
+                while ((line = br.readLine()) != null) {
+                    matcher.reset(line);
+                    if (matcher.find()) {
+                        count++;
+                        matchedLine += line + "\n";
+                    }
+                }
+                outputSet.put(file, matchedLine + "@" + count);
             }
-            while ((line = br.readLine()) != null) {
-                matcher.reset(line);
+            br.close();
+        }else {
+            if(fileName.size() == 0 && instructions.size() == 1 && instructions.firstElement().equals("-")){
+                int count = 0;
+                String matchedLine = "";
+                Scanner sc = new Scanner(System.in);
+                String standardInput = sc.nextLine();
+                matcher.reset(standardInput);
                 if (matcher.find()) {
                     count++;
-                    matchedLine += line + "\n";
+                    matchedLine += standardInput + "\n";
                 }
+                outputSet.put(standardInput, matchedLine + "@" + count);
             }
-            outputSet.put(file, matchedLine + "@" + count);
         }
-        br.close();
+
 
         printOutput(outputSet, instructions, fileName, has_l, has_c, has_w);
     }
