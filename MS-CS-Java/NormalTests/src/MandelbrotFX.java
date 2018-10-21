@@ -7,6 +7,8 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+import java.util.concurrent.CountDownLatch;
+
 public class MandelbrotFX extends Application {
 
     WritableImage mandelBrotSetImage;
@@ -26,10 +28,10 @@ public class MandelbrotFX extends Application {
 
     public void start(Stage theStage) {
 
-        MandelbrotSet aMandelbrotSet = new MandelbrotSet(IMG_WIDTH, IMG_HEIGHT);
+        MandelbrotSet aMandelbrotSet = new MandelbrotSet(IMG_WIDTH, IMG_HEIGHT, 0, 0);
 
         init();
-        mandelBrotSetImage = aMandelbrotSet.createImage();
+        mandelBrotSetImage = aMandelbrotSet.createImage(10);
         end("Multiple Thread MandelbrotSet Test");
 
 
@@ -66,7 +68,8 @@ class MandelbrotSet extends Thread {
     private static double maxR = 0.9;
     private static double minI = -1.3;
     private static double maxI = 1.28;
-    private static MandelbrotSet[] allThreads;
+    private static int threadHeightStart = 0;
+    private static int threadHeightEnd = 0;
 
     static {
         for (int index = 0; index < colors.length; index++) {
@@ -77,12 +80,12 @@ class MandelbrotSet extends Thread {
     public MandelbrotSet() {
     }
 
-    public MandelbrotSet(int width, int height) {
+    public MandelbrotSet(int width, int height, int threadHeightStart, int threadHeightEnd) {
         this.width = width;
         this.height = height;
+        this.threadHeightStart = threadHeightStart;
+        this.threadHeightEnd = threadHeightEnd;
         mandelBrotSetImage = new WritableImage(width, height);
-        if (allThreads == null)
-            allThreads = new MandelbrotSet[width * height];
     }
 
     private Color getColor(int count) {
@@ -119,16 +122,31 @@ class MandelbrotSet extends Thread {
         return getColor(calc(re, img));
     }
 
-    public WritableImage createImage() {
+    public WritableImage createImage(int numberOfThreads) {
         mandelBrotSetImage = new WritableImage(width, height);
         aPixelWriter = mandelBrotSetImage.getPixelWriter();
+        MandelbrotSet[] thread = new MandelbrotSet[numberOfThreads];
+        for(int i = 0; i<numberOfThreads; i++){
+            threadHeightEnd = threadHeightStart + height/numberOfThreads;
+            thread[i] = new MandelbrotSet(width, height, threadHeightStart, threadHeightEnd);
+            thread[i].start();
+            threadHeightStart = threadHeightStart + height/numberOfThreads;
+        }
+//        for (int x = 0; x < width; x++) {
+//            for (int y = 0; y < height; y++) {
+//                aPixelWriter.setColor(x, y, determineColor(x, y));
+//            }
+//        }
+        return mandelBrotSetImage;
+    }
 
+    public void run(){
+        aPixelWriter = mandelBrotSetImage.getPixelWriter();
         for (int x = 0; x < width; x++) {
             for (int y = 0; y < height; y++) {
                 aPixelWriter.setColor(x, y, determineColor(x, y));
             }
         }
-        return mandelBrotSetImage;
     }
 }
  
