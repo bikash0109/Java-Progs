@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0a69e4c-3dc8-4254-ac69-3cd342109b56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HW8.2/Grep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW8.2/Grep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Grep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/NormalTests.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/out/production/NormalTests/Mandelbrot$Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/out/production/NormalTests/Mandelbrot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/out/production/NormalTests/MandelbrotFX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/out/production/NormalTests/MandelbrotFractal$ManFrThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/out/production/NormalTests/MandelbrotFractal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/out/production/NormalTests/MandelbrotSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/out/production/NormalTests/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/output/mandelbrot_w2048_x1000_c533.258ms_r84.028ms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/src/Mandelbrot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFractal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NormalTests/src/Test.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +19,7 @@
     <session id="-166041432">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.opened" value="2" />
@@ -103,9 +87,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Grep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="1960">
+              <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
               <folding>
+                <element signature="e#0#7676#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -120,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="90">
               <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
@@ -129,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="30">
               <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
@@ -246,10 +231,10 @@
     <option name="totallyTimeSpent" value="23681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -302,10 +287,10 @@
     <entry file="file://$PROJECT_DIR$/src/test.txt" />
     <entry file="file://$PROJECT_DIR$/src/Grep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="1960">
+          <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
           <folding>
-            <element signature="e#0#7693#0" expanded="true" />
+            <element signature="e#0#7676#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -316,14 +301,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="90">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>

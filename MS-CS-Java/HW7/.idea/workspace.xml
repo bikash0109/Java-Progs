@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61a56a3-693e-4c64-9023-dd72a4209afb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW8.2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW8.2/src/Grep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/NormalTests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/src/Mandelbrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MandelbrotFractal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/src/MultithreadingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NormalTests/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/PiEvenOddImprovement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/out/production/HW8.1/pi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/ArgumentMissingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/EmptyFileException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/NoNumbersException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/PiEvenOddImprovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/src/pi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/src/pi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +16,7 @@
     <session id="103765298">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />

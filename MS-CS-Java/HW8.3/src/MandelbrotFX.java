@@ -152,8 +152,7 @@ class MandelbrotSet extends Thread {
     public void run() {
         aPixelWriter = mandelBrotSetImage.getPixelWriter();
             System.out.println("Thread number : " + threadId);
-            int divisibleNumber = numberOfThreads > 10 ? 5 : numberOfThreads/2; //To skip the pixels, which are already covered.
-            for (int x = threadId; x < width; x+=numberOfThreads/divisibleNumber) {
+            for (int x = threadId; x < width; x+=numberOfThreads) {
                 for (int y = threadId; y < height; y++) {
                     aPixelWriter.setColor(x, y, determineColor(x, y));
                 }
