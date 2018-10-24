@@ -1,37 +1,25 @@
-// Java program to implement solution of producer 
-// consumer problem. 
-
-import java.util.LinkedList;
 
 public class ConsumerProducer {
 
-    // Create a list shared by producer and consumer
-    // Size of list is 2.
-    static LinkedList<Integer> list = new LinkedList<>();
-    int capacity = 2;
+    static MyStorage<Integer> list = new MyStorage<>();
+    int capacity = 10;
 
     // Function called by producer thread
     public void produce() throws InterruptedException {
         int value = 0;
         while (true) {
             synchronized (this) {
-                // producer thread waits while list
-                // is full
+
                 while (list.size() == capacity) {
-                    System.out.println("Waiting to be consumed.");
                     wait();
                 }
 
-                System.out.println("Producer produced-" + value);
+                System.out.println("Producer " + Thread.currentThread().getName() + " produced : " + value);
 
                 // to insert the jobs in the list
                 list.add(value++);
 
-                // notifies the consumer thread that
-                // now it can start consuming
-                notify();
-
-                Thread.sleep(500);
+                notifyAll();
             }
         }
     }
@@ -40,58 +28,56 @@ public class ConsumerProducer {
     public void consume() throws InterruptedException {
         while (true) {
             synchronized (this) {
-                // consumer thread waits while list
-                // is empty
+
                 while (list.size() == 0) {
-                    System.out.println("Waiting to be produced.");
                     wait();
                 }
 
-                //to retrive the ifrst job in the list
                 int val = list.removeFirst();
 
-                System.out.println("Consumer consumed-" + val);
+                System.out.println("Consumer " + Thread.currentThread().getName() + " consumed : " + val);
 
                 // Wake up producer thread
-                notify();
-
-                Thread.sleep(500);
+                notifyAll();
             }
         }
     }
 
-    public static void main(String[] args)
-            throws InterruptedException {
-        // Object of a class that has both produce()
-        // and consume() methods
-        final ConsumerProducer pc = new ConsumerProducer();
+    public static void main(String[] args) throws InterruptedException {
 
-        // Create producer thread 
-        Thread t1 = new Thread(() -> {
-            try {
-                pc.produce();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        final ConsumerProducer consumerProducer = new ConsumerProducer();
+
+        Thread[] producerThreads = new Thread[10];
+        Thread[] consumerThreads = new Thread[10];
+
+        for (int i = 0; i < 10; i++) {
+            // Create producer thread
+            producerThreads[i] = new Thread(() -> {
+                try {
+                    consumerProducer.produce();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            });
+            producerThreads[i].start();
         }
-        );
 
-        // Create consumer thread 
-        Thread t2 = new Thread(() -> {
-            try {
-                pc.consume();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        for (int i = 0; i < 10; i++) {
+            // Create consumer thread
+            consumerThreads[i] = new Thread(() -> {
+                try {
+                    consumerProducer.consume();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            });
+            consumerThreads[i].start();
         }
-        );
 
-        // Start both threads 
-        t1.start();
-        t2.start();
+        for (int i = 0; i < 10; i++) {
+            producerThreads[i].join();
+            consumerThreads[i].join();
+        }
 
-        // t1 finishes before t2 
-        t1.join();
-        t2.join();
     }
 } 
