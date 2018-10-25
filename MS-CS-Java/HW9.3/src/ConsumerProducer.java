@@ -1,11 +1,12 @@
 
 public class ConsumerProducer {
     static MyStorage<Integer> list = new MyStorage<>();
-    int producerItem, consumerItem, capacity;
+    int producerItem, consumerItem, capacity,originalConsumerItem;
     ConsumerProducer(int producerItem, int consumerItem, int capacity){
         this.capacity = capacity;
         this.producerItem = producerItem;
         this.consumerItem = consumerItem;
+        this.originalConsumerItem = consumerItem;
     }
     // Function called by producer thread
     public void produce() throws InterruptedException {
@@ -17,6 +18,8 @@ public class ConsumerProducer {
                 }
                 System.out.println(Thread.currentThread().getName().split("-")[1] + " produce : " + value);
                 list.add(value++);
+                if(consumerItem == 0)
+                    consumerItem = originalConsumerItem;
                 // wake up consumer thread
                 notifyAll();
                 Thread.sleep(1000);
@@ -27,10 +30,11 @@ public class ConsumerProducer {
     public void consume() throws InterruptedException {
         while (true) {
             synchronized (this) {
-                while (list.size() == 0) {
+                while (consumerItem == 0) {
                     wait();
                 }
                 int val = list.removeFirst();
+                consumerItem--;
                 System.out.println(Thread.currentThread().getName().split("-")[1] + " consumer : " + val);
                 // Wake up producer thread
                 notifyAll();
