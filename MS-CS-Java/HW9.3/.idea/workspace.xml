@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="88731ba0-f10c-4678-b7d0-134f5bc269ca" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="88731ba0-f10c-4678-b7d0-134f5bc269ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/M.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/Thread_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/Thread_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/Thread_5b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 2a33c56b6743c49da4386dddb0035797b6c9d382
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +99,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ConsumerProducer.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="36">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+=======
             <state relative-caret-position="255">
               <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+>>>>>>> 12ac2b109cc63524b6ab9624e50fff01ae087ad0
             </state>
           </provider>
         </entry>
@@ -97,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="240">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#336#337#0" expanded="true" />
@@ -249,10 +265,17 @@
     <option name="totallyTimeSpent" value="15544000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+=======
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26226014" />
+>>>>>>> 12ac2b109cc63524b6ab9624e50fff01ae087ad0
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,14 +335,19 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/ConsumerProducer.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="36">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+=======
         <state relative-caret-position="255">
           <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+>>>>>>> 12ac2b109cc63524b6ab9624e50fff01ae087ad0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="240">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#336#337#0" expanded="true" />
