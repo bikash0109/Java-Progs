@@ -2,7 +2,13 @@
 public class ConsumerProducer {
 
     static MyStorage<Integer> list = new MyStorage<>();
-    int capacity = 10;
+    int producerItem, consumerItem, capacity;
+
+    ConsumerProducer(int producerItem, int consumerItem, int capacity){
+        this.capacity = capacity;
+        this.producerItem = producerItem;
+        this.consumerItem = consumerItem;
+    }
 
     // Function called by producer thread
     public void produce() throws InterruptedException {
@@ -14,12 +20,14 @@ public class ConsumerProducer {
                     wait();
                 }
 
-                System.out.println("Producer " + Thread.currentThread().getName() + " produced : " + value);
+                System.out.println(Thread.currentThread().getName().split("-")[1] + " produce : " + value);
 
-                // to insert the jobs in the list
                 list.add(value++);
 
+                // wake up consumer thread
                 notifyAll();
+
+                Thread.sleep(1000);
             }
         }
     }
@@ -35,22 +43,31 @@ public class ConsumerProducer {
 
                 int val = list.removeFirst();
 
-                System.out.println("Consumer " + Thread.currentThread().getName() + " consumed : " + val);
+                System.out.println(Thread.currentThread().getName().split("-")[1] + " consumer : " + val);
 
                 // Wake up producer thread
                 notifyAll();
+
+                Thread.sleep(1000);
             }
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
-        final ConsumerProducer consumerProducer = new ConsumerProducer();
+        int numOfProducerThread = Integer.parseInt(args[0]);
+        int producerItems = Integer.parseInt(args[1]);
+        int numOfConsumerThread = Integer.parseInt(args[2]);
+        int consumerItems = Integer.parseInt(args[3]);
+        int capacity = Integer.parseInt(args[4]);
 
-        Thread[] producerThreads = new Thread[10];
-        Thread[] consumerThreads = new Thread[10];
 
-        for (int i = 0; i < 10; i++) {
+        final ConsumerProducer consumerProducer = new ConsumerProducer(producerItems, consumerItems, capacity);
+
+        Thread[] producerThreads = new Thread[numOfProducerThread];
+        Thread[] consumerThreads = new Thread[numOfConsumerThread];
+
+        for (int i = 0; i < producerThreads.length; i++) {
             // Create producer thread
             producerThreads[i] = new Thread(() -> {
                 try {
@@ -59,10 +76,9 @@ public class ConsumerProducer {
                     e.printStackTrace();
                 }
             });
-            producerThreads[i].start();
         }
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < consumerThreads.length; i++) {
             // Create consumer thread
             consumerThreads[i] = new Thread(() -> {
                 try {
@@ -71,13 +87,14 @@ public class ConsumerProducer {
                     e.printStackTrace();
                 }
             });
+        }
+
+        for (int i = 0; i < producerThreads.length; i++) {
+            producerThreads[i].start();
+        }
+
+        for (int i = 0; i < consumerThreads.length; i++) {
             consumerThreads[i].start();
         }
-
-        for (int i = 0; i < 10; i++) {
-            producerThreads[i].join();
-            consumerThreads[i].join();
-        }
-
     }
 } 
