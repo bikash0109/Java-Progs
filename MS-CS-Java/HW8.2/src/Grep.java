@@ -90,7 +90,7 @@ public class Grep {
                 outputSet.forEach((key, value) -> {
                     String valuePart = value.substring(0, value.indexOf("@"))
                             .replace("\n", "\n" + key + " : ");
-                    String valuePartSub = valuePart.substring(0, valuePart.lastIndexOf(key));
+                    String valuePartSub = valuePart.length() == 0 ? " " : valuePart.substring(0, valuePart.lastIndexOf(key));
                     System.out.println(key
                             + " : " +
                             valuePartSub);

@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f06c20-967e-442e-a5d7-4c95e2be32d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/FileSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8.2/src/Grep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/src/Grep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.3/out/production/NormalTests/MandelbrotSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.3/out/production/NormalTests/MandelbrotSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.3/src/MandelbrotFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.3/src/MandelbrotFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/Thread_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/Thread_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsTest/src/Thread_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/src/Thread_5.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +31,11 @@
     <session id="30472072">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -145,11 +156,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
-    <option name="y" value="23" />
-    <option name="width" value="1388" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +183,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,17 +236,18 @@
       <workItem from="1540049771281" duration="1655000" />
       <workItem from="1540164188781" duration="20000" />
       <workItem from="1540167167943" duration="572000" />
+      <workItem from="1540590673857" duration="457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17823000" />
+    <option name="totallyTimeSpent" value="18280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1388" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24071322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
