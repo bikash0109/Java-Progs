@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c38a293a-cb5e-4f78-9aa3-b4652476b431" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW9.1/src/Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SieveOfEratosthenes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.2/src/Grep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/src/Grep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThreadsTest/Thread_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadsTest/Thread_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread_5.java" afterDir="false" />
-    </list>
+    <list default="true" id="c38a293a-cb5e-4f78-9aa3-b4652476b431" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -354,12 +333,12 @@
       <workItem from="1540246159466" duration="420000" />
       <workItem from="1540350791577" duration="80000" />
       <workItem from="1540415587449" duration="5452000" />
-      <workItem from="1540473159679" duration="9196000" />
+      <workItem from="1540473159679" duration="9297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15148000" />
+    <option name="totallyTimeSpent" value="15249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
