@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad686f95-fcdc-4c90-a3bc-d72523c0bbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/HW9.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/ArgumentMissingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NegativeNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NotANumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/PrimeAsFastAsPossible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.3/src/NotANumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ClassT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ThreadTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW9.1/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW9.1/Find.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Find.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NegativeNumberException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NegativeNumberException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NoArgumentsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NoArgumentsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/MyStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/MyStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/SieveOfEratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/SieveOfEratosthenes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/src/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/src/SieveOfEratosthenes.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad686f95-fcdc-4c90-a3bc-d72523c0bbe6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +13,7 @@
     <session id="159557303">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -186,12 +157,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540610681530</updated>
-      <workItem from="1540610683174" duration="12643000" />
+      <workItem from="1540610683174" duration="12783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12643000" />
+    <option name="totallyTimeSpent" value="12783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -210,7 +181,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
