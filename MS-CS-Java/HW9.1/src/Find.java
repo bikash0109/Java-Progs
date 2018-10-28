@@ -1,4 +1,17 @@
+/*
+ * Program Name: Find.java
+ *
+ * Version :  1.0
+ *
+ * @author: Bikash Roy (br8376)
+ * @author: Tanay Bhardwaj
+ *
+ * A progarm to  mimic find function of UNIX.
+ *
+ * */
+
 import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Vector;
 import java.nio.file.Path;
@@ -13,11 +26,19 @@ public class Find {
         boolean hasPrintFile = instructions.contains("--printFile");
         SimpleDateFormat sdf = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss z");
         for (File f : listFiles) {
-            System.out.format("%30s %20s %10s",
-                    (hasPrintFile ? f.getName() : ""),
-                    (hasPrintDate ? "\t" + sdf.format(f.lastModified()) : ""),
-                    (hasPrintLength ? f.length() : ""));
-            System.out.println();
+            if(instructions.size() > 0){
+                System.out.format("%30s %20s %10s",
+                        (hasPrintFile ? f.getName() : ""),
+                        (hasPrintDate ? "\t" + sdf.format(f.lastModified()) : ""),
+                        (hasPrintLength ? f.length() : "") + "\n");
+            }else {
+                try{
+                    System.out.format(f.getCanonicalPath() + "\n");
+                }catch (IOException ex){
+                    System.out.println(ex.getMessage());
+                }
+            }
+
             if (f.listFiles() != null) {
                 RecursivePrint(f.listFiles(), level + 1, instructions);
             }

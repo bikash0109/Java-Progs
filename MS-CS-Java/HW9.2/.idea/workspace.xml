@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad686f95-fcdc-4c90-a3bc-d72523c0bbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/HW9.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/ArgumentMissingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NegativeNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NotANumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/PrimeAsFastAsPossible.java" afterDir="false" />
+    <list default="true" id="ab6c9e78-3695-449f-be0a-3dbb88c1f017" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW9.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArgumentMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NegativeNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotANumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeAsFastAsPossible.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HW9.3/src/NotANumberException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ClassT.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ThreadTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW9.1/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW9.1/Find.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.1/out/production/HW9.1/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/out/production/HW9.1/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.1/src/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/src/Find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" afterDir="false" />
@@ -40,31 +40,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="159557303">
+    <session id="-36956201">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1514" />
+          <entry key="java" value="1061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1514" />
+          <entry key="JAVA" value="1061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -75,13 +75,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Find.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PrimeAsFastAsPossible.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="150">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArgumentMissingException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NotANumberException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NegativeNumberException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="60" selection-start-column="60" selection-end-column="60" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +142,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Find.java" />
+        <option value="$PROJECT_DIR$/src/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/NoArgumentsException.java" />
+        <option value="$PROJECT_DIR$/src/PrimeAsFastAsPossible.java" />
+        <option value="$PROJECT_DIR$/src/ArgumentMissingException.java" />
+        <option value="$PROJECT_DIR$/src/NotANumberException.java" />
+        <option value="$PROJECT_DIR$/src/NegativeNumberException.java" />
       </list>
     </option>
   </component>
@@ -112,7 +157,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -122,30 +167,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="HW9.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW9.1" type="462c0819:PsiDirectoryNode" />
+              <item name="HW9.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW9.2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HW9.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW9.1" type="462c0819:PsiDirectoryNode" />
+              <item name="HW9.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW9.2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -161,18 +205,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Find" />
-      <module name="HW9.1" />
-      <option name="PROGRAM_PARAMETERS" value="--directory HW9.1 --printDate --printLength" />
+  <component name="RunManager" selected="Application.PrimeAsFastAsPossible">
+    <configuration name="PrimeAsFastAsPossible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeAsFastAsPossible" />
+      <module name="HW9.2" />
+      <option name="PROGRAM_PARAMETERS" value="a" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SieveOfEratosthenes" />
+      <module name="HW9.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SieveOfEratosthenes" />
+      <item itemvalue="Application.PrimeAsFastAsPossible" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Find" />
+        <item itemvalue="Application.PrimeAsFastAsPossible" />
+        <item itemvalue="Application.SieveOfEratosthenes" />
       </list>
     </recent_temporary>
   </component>
@@ -181,17 +237,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad686f95-fcdc-4c90-a3bc-d72523c0bbe6" name="Default Changelist" comment="" />
-      <created>1540610681530</created>
+      <changelist id="ab6c9e78-3695-449f-be0a-3dbb88c1f017" name="Default Changelist" comment="" />
+      <created>1540754485714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540610681530</updated>
-      <workItem from="1540610683174" duration="12643000" />
+      <updated>1540754485714</updated>
+      <workItem from="1540754487230" duration="6402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12643000" />
+    <option name="totallyTimeSpent" value="6402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -210,8 +266,8 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -233,61 +289,67 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>f.getName()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f.getParentFile()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f.getCanonicalPath()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f.getCanonicalFile()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f.getAbsolutePath()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f.getParent()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f.getPath()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f.getAbsoluteFile()</expression-string>
+        <expression-string>args.length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/File.java">
+    <entry file="file://$PROJECT_DIR$/src/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="1217" column="18" selection-start-line="1217" selection-start-column="18" selection-end-line="1217" selection-end-column="18" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Find.java">
+    <entry file="file://$PROJECT_DIR$/src/NoArgumentsException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="45">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrimeAsFastAsPossible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArgumentMissingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NotANumberException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NegativeNumberException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
           </folding>
         </state>
       </provider>

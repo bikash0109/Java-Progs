@@ -1,3 +1,5 @@
+//Custom storage Data Structure t hold the data produced by producer and consumed by consumer.
+
 import java.util.*;
 
 public class MyStorage<E> {

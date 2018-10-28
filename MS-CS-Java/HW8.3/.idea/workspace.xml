@@ -2,17 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a192ff7-673d-4364-b1b3-363b388e4e8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW8.2/src/Grep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/src/Grep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/HW9.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/src/ArgumentMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NegativeNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NotANumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.2/src/PrimeAsFastAsPossible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW9.3/src/NotANumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ClassT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ThreadTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.1/out/production/HW9.1/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/out/production/HW9.1/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.1/src/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/src/Find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NegativeNumberException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NegativeNumberException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NoArgumentsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NoArgumentsException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/Thread_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/Thread_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/src/Thread_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/src/Thread_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/SieveOfEratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/SieveOfEratosthenes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadsTest/src/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/src/SieveOfEratosthenes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,12 +131,12 @@
     <session id="-362554936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -146,9 +162,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MandelbrotFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            <state>
+              <caret lean-forward="true" selection-end-line="13" selection-end-column="5" />
               <folding>
+                <element signature="e#0#5673#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -195,7 +212,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -207,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,7 +260,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,17 +356,18 @@
       <workItem from="1540356629033" duration="597000" />
       <workItem from="1540389282530" duration="1000" />
       <workItem from="1540483546074" duration="1330000" />
+      <workItem from="1540762182354" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44527000" />
+    <option name="totallyTimeSpent" value="44538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27682403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -401,9 +419,10 @@
     <entry file="file://$PROJECT_DIR$/out/production/NormalTests/Note.txt" />
     <entry file="file://$PROJECT_DIR$/src/MandelbrotFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        <state>
+          <caret lean-forward="true" selection-end-line="13" selection-end-column="5" />
           <folding>
+            <element signature="e#0#5673#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
