@@ -20,8 +20,8 @@ class PrimeAsFastAsPossible {
     PrimeAsFastAsPossible(int n) {
         this.n = n;
         this.prime = new boolean[n + 1];
-        for (int i = 0; i < n ; i++) {
-            prime[i] = true;
+        for (int i = 0; i < n/2 ; i++) {
+                prime[i] =true;
         }
     }
 
@@ -63,7 +63,7 @@ class PrimeAsFastAsPossible {
             }
         }
         long stop = System.currentTimeMillis();
-        System.out.println("Time of execution: " + (stop - start));
+        System.out.println("Time of execution: " + (stop - start) + "ms");
     }
 
     public static void main(String args[]) throws ArgumentMissingException, NotANumberException, NegativeNumberException{
