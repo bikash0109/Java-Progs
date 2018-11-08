@@ -6,39 +6,56 @@
  * @author: Bikash Roy (br8376)
  * @author: Tanay Bhardwaj
  *
- * A program that implements a multi-threaded solution to produce and consume items simultaneously.
+ * A program that implements a multi-threaded solution to produce and consume items simultaneously, with 3 kinds of producer
  *
  * logic : use of synchronized block on the class, to allow only one part to access the list simultaneously.
  *
  * */
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class ConsumerProducer {
-    MyStorage<Integer> list = new MyStorage<>();
-    int producerItem, consumerItem, capacity, originalConsumerItem;
+    MyStorage<Integer> listInt = new MyStorage<>();
+    MyStorage<String> listString = new MyStorage<>();
+    MyStorage<Boolean> listBool = new MyStorage<>();
+    int capacity;
     int value = 0;
 
-    ConsumerProducer(int producerItem, int consumerItem, int capacity) {
+    ConsumerProducer(int capacity) {
         this.capacity = capacity;
-        this.producerItem = producerItem;
-        this.consumerItem = consumerItem;
-        this.originalConsumerItem = consumerItem;
     }
 
     // Function called by producer thread
-    public void produce() throws InterruptedException {
+    public void produce(String type) throws InterruptedException {
         while (true) {
             synchronized (this) {
-                while (list.size() == producerItem || list.size() == capacity) {
+                while (listInt.size() + listBool.size() + listString.size() == capacity) {
                     wait();
                 }
-                System.out.println(Thread.currentThread().getName().split("-")[1] + " produce : " + value);
-                list.add(value++);
-                if (consumerItem == 0)
-                    consumerItem = originalConsumerItem;
+                int valueCounter = value++;
+                if (type.equals("int")) {
+                    int intItem = valueCounter;
+                    System.out.println(Thread.currentThread().getName().split("-")[1] + " produce : " + intItem);
+                    listInt.add(intItem);
+                }
+
+                if (type.equals("string")) {
+                    String strItem = "Str_" + valueCounter;
+                    System.out.println(Thread.currentThread().getName().split("-")[1] + " produce : " + strItem);
+                    listString.add(strItem);
+                }
+
+                if (type.equals("bool")) {
+                    Boolean boolItem = valueCounter % 2 == 0 ? true : false;
+                    System.out.println(Thread.currentThread().getName().split("-")[1] + " produce : " + boolItem);
+                    listBool.add(boolItem);
+                }
+
                 // wake up consumer thread
                 notifyAll();
+
+                //Thread.sleep(1000);
             }
         }
     }
@@ -47,47 +64,68 @@ public class ConsumerProducer {
     public void consume() throws InterruptedException {
         while (true) {
             synchronized (this) {
-                while (consumerItem == 0 || list.size() == 0) {
+                while (listInt.size() + listBool.size() + listString.size() == 0) {
                     wait();
                 }
-                int val = list.removeFirst();
-                consumerItem--;
-                System.out.println(Thread.currentThread().getName().split("-")[1] + " consumer : " + val);
+                if (listInt.size() > 3) {
+                    for (int i = 0; i < 3; i++) {
+                        int val = listInt.removeFirst();
+                        System.out.println(Thread.currentThread().getName().split("-")[1] + " consumer : " + val);
+                    }
+                }
+                if (listString.size() > 5) {
+                    for (int i = 0; i < 5; i++) {
+                        String str = listString.removeFirst();
+                        System.out.println(Thread.currentThread().getName().split("-")[1] + " consumer : " + str);
+                    }
+                }
+                if (listBool.size() > 2) {
+                    for (int i = 0; i < 2; i++) {
+                        Boolean bool = listBool.removeFirst();
+                        System.out.println(Thread.currentThread().getName().split("-")[1] + " consumer : " + bool);
+                    }
+                }
                 // Wake up producer thread
                 notifyAll();
+
+                //Thread.sleep(1000);
             }
         }
     }
 
     public static void main(String[] args) throws NoArgumentsException, NegativeNumberException, NotANumberException {
         try {
-            int numOfConsumerThread, consumerItems, numOfProducerThread, producerItems, capacity;
-            if (args.length == 5) {
+            int numOfConsumerThread, numOfProducerThread, capacity;
+            if (args.length == 3) {
                 if (Arrays.asList(args).stream().anyMatch(x -> x.contains("-"))) {
                     throw new NegativeNumberException("");
                 } else {
                     numOfConsumerThread = Integer.parseInt(args[0]);
-                    consumerItems = Integer.parseInt(args[1]);
-                    numOfProducerThread = Integer.parseInt(args[2]);
-                    producerItems = Integer.parseInt(args[3]);
-                    capacity = Integer.parseInt(args[4]);
+                    numOfProducerThread = Integer.parseInt(args[1]);
+                    capacity = Integer.parseInt(args[2]);
                 }
             } else {
                 throw new NoArgumentsException("");
             }
 
-            final ConsumerProducer consumerProducer = new ConsumerProducer(producerItems, consumerItems, capacity);
+            final ConsumerProducer consumerProducer = new ConsumerProducer(capacity);
 
             Thread[] producerThreads = new Thread[numOfProducerThread];
             Thread[] consumerThreads = new Thread[numOfConsumerThread];
 
+            final String[] producerType = {"int", "string", "bool"};
+
+            System.out.println();
+
             for (int i = 0; i < producerThreads.length; i++) {
+                Random random = new Random();
+                int index = random.nextInt(producerType.length);
                 // Create producer thread
                 producerThreads[i] = new Thread(new Runnable() {
                     @Override
                     public void run() {
                         try {
-                            consumerProducer.produce();
+                            consumerProducer.produce(producerType[index]);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
@@ -119,10 +157,10 @@ public class ConsumerProducer {
 
         } catch (NegativeNumberException ex) {
             throw new NegativeNumberException("Negative number cannot be processed");
-        }catch (NoArgumentsException ex){
+        } catch (NoArgumentsException ex) {
             throw new NoArgumentsException("Enter correct arguments - in pairs (ignore brackets and commas) (Consumer_Thread_Count, Consumer_item)\" +\n" +
                     "                \" (Producer_Thread_Count, Producer_item) (Storage Size)");
-        }catch (NumberFormatException ex){
+        } catch (NumberFormatException ex) {
             throw new NotANumberException("Not a number");
         }
     }
