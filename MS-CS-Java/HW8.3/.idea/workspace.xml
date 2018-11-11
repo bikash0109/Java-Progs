@@ -2,33 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a192ff7-673d-4364-b1b3-363b388e4e8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/HW9.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/ArgumentMissingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NegativeNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/NotANumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.2/src/PrimeAsFastAsPossible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW9.3/src/NotANumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ClassT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/ThreadTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.1/out/production/HW9.1/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/out/production/HW9.1/Find.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.1/src/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.1/src/Find.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/ConsumerProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NegativeNumberException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NegativeNumberException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NoArgumentsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/out/production/HW9.3/NoArgumentsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/ConsumerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/NegativeNumberException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW9.3/src/NoArgumentsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/SieveOfEratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/SieveOfEratosthenes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/src/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/src/SieveOfEratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/HW11.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/src/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.2/src/LE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.2/src/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/Ankit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/out/production/Ankit/Elevator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/out/production/Ankit/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/out/production/Ankit/People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/src/Elevator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/src/Executor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ankit/src/People.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/ConsumerProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/ConsumerProducer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/ConsumerProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/MyStorage$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/MyStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/NegativeNumberException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/NoArgumentsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/NotANumberException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,17 +160,25 @@
       <usages-collector id="statistics.file.types.open" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="1499197929">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MandelbrotFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="-1754">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#0#5673#0" expanded="true" />
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,7 +224,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -265,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540164173030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541951192906" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -357,17 +369,18 @@
       <workItem from="1540389282530" duration="1000" />
       <workItem from="1540483546074" duration="1330000" />
       <workItem from="1540762182354" duration="11000" />
+      <workItem from="1541950119681" duration="1582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44538000" />
+    <option name="totallyTimeSpent" value="46120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27682403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28225806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -377,7 +390,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37108433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37103593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,11 +432,10 @@
     <entry file="file://$PROJECT_DIR$/out/production/NormalTests/Note.txt" />
     <entry file="file://$PROJECT_DIR$/src/MandelbrotFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="-1754">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#0#5673#0" expanded="true" />
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

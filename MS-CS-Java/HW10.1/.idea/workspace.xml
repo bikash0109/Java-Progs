@@ -2,31 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e616462-f8ed-4e02-a94b-78d2ca50f609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ElevatorSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FloorMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PassengerArrival.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/T_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadsTest/src/T_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/HW11.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/src/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.1/src/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW11.2/src/LE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10.1/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW10.1/Elevator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10.1/ElevatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10.1/ElevatorMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10.1/ElevatorRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW10.1/ElevatorRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW10.1/ElevatorState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW10.1/ElevatorState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElevatorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElevatorMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElevatorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElevatorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElevatorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElevatorState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW9.3/ConsumerProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/out/production/HW9.3/ConsumerProducer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW9.3/ConsumerProducer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/out/production/HW9.3/ConsumerProducer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW9.3/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/out/production/HW9.3/ConsumerProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW10.2/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/src/ConsumerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/T_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/out/production/ThreadsTest/T_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadsTest/src/T_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/src/T_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/ConsumerProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/ConsumerProducer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/ConsumerProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/MyStorage$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/MyStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/NegativeNumberException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/NoArgumentsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW10.2/out/production/HW10.2/NotANumberException.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,33 +63,40 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="157032520">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
-              <folding>
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ElevatorSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
               <folding>
-                <element signature="e#0#1048#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -107,10 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="86" selection-start-column="86" selection-end-column="86" />
-              <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,12 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ElevatorRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="187">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,15 +139,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FloorMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="442">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,7 +198,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -216,7 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,14 +224,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541200434233" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541822251332" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW11.1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -293,41 +284,47 @@
       <option name="presentableId" value="Default" />
       <updated>1541200517056</updated>
       <workItem from="1541200518559" duration="40030000" />
+      <workItem from="1541777855823" duration="1385000" />
+      <workItem from="1541848833842" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40030000" />
+    <option name="totallyTimeSpent" value="41467000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25479743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7072289" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.77223426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,50 +343,13 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="390" column="25" selection-start-line="390" selection-start-column="25" selection-end-line="390" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="3334" column="17" selection-start-line="3334" selection-start-column="17" selection-end-line="3334" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java" />
     <entry file="file://$PROJECT_DIR$/src/Elevator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
-          <folding>
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ElevatorSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#1048#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -397,10 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="86" selection-start-column="86" selection-end-column="86" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,12 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ElevatorRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="187">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,12 +383,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FloorMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="442">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ElevatorSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
