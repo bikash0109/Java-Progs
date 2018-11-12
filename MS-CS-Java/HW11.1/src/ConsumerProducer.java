@@ -8,7 +8,7 @@
  *
  * A program that implements a multi-threaded solution to produce and consume items simultaneously, with 3 kinds of producer
  *
- * logic : use of synchronized block on the class, to allow only one part to access the list simultaneously.
+ * logic : use of semaphore block on the class, to allow only one part to access the list simultaneously.
  *
  * */
 
@@ -99,6 +99,10 @@ public class ConsumerProducer {
                 } else {
                     numOfConsumerThread = Integer.parseInt(args[0]);
                     numOfProducerThread = Integer.parseInt(args[1]);
+                    if(numOfProducerThread < 3) {
+                        System.out.println("Minimum 3 producers are required.");
+                        return;
+                    }
                     capacity = Integer.parseInt(args[2]);
                 }
             } else {

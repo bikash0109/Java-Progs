@@ -1,4 +1,15 @@
 /*
+ * Program Name: LE.java
+ *
+ * Version :  1.0
+ *
+ * @Member1: Bikash Roy (br8376)
+ * @Member2: Tanay Bhardwaj
+ *
+ * */
+
+
+/*
  * Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -98,7 +109,7 @@ public class LE {
          * Length of the stream is counted by count().
          */
         System.out.println("Character count = "
-                + reader.lines().flatMapToInt(x -> x.chars()).count()); // Method reference
+                + reader.lines().flatMapToInt(String::chars).count()); // Method reference
         /*
          * Input is read as a stream of lines by lines().
          * Every line is split by nonWordPattern into words by flatMap(...)
