@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38a293a-cb5e-4f78-9aa3-b4652476b431" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW11.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.1/out/production/HW11.1/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.1/out/production/HW11.1/ConsumerProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.1/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.1/src/ConsumerProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.2/out/production/HW11.2/LE.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/out/production/HW11.2/LE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.2/src/LE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/src/LE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -24,13 +19,14 @@
     <session id="-886006011">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.26" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/T_5.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -154,8 +150,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +175,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -275,17 +271,17 @@
       <workItem from="1541173013933" duration="307000" />
       <workItem from="1541306726377" duration="507000" />
       <workItem from="1541358281612" duration="1806000" />
+      <workItem from="1542044220972" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37269000" />
+    <option name="totallyTimeSpent" value="37692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2761087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27968526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -616,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/src/T_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

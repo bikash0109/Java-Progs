@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831deabf-34e0-45f0-85df-179b4455e05d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW11.1/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW11.1/ConsumerProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsumerProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.2/out/production/HW11.2/LE.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/out/production/HW11.2/LE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.2/src/LE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/src/LE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -61,10 +56,11 @@
     <session id="589548511">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -90,10 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/ConsumerProducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#6311#0" expanded="true" />
-              </folding>
+              <caret selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -110,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Semaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="255">
               <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding>
                 <element signature="e#76#77#0" expanded="true" />
@@ -148,9 +141,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,7 +152,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,18 +233,18 @@
       <workItem from="1541848886045" duration="19429000" />
       <workItem from="1541947940523" duration="1430000" />
       <workItem from="1541970950417" duration="317000" />
-      <workItem from="1541983194732" duration="90000" />
+      <workItem from="1541983194732" duration="261000" />
+      <workItem from="1542044223233" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25232000" />
+    <option name="totallyTimeSpent" value="25823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26680973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,10 +297,7 @@
     <entry file="file://$PROJECT_DIR$/src/ConsumerProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#6311#0" expanded="true" />
-          </folding>
+          <caret selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -320,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="255">
           <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
             <element signature="e#76#77#0" expanded="true" />

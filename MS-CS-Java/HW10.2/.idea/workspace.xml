@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d6945a-56a1-47bb-b015-2df90a62bbec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW10.1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW11.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.1/out/production/HW11.1/ConsumerProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.1/out/production/HW11.1/ConsumerProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.1/src/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.1/src/ConsumerProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.2/out/production/HW11.2/LE.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/out/production/HW11.2/LE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW11.2/src/LE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/src/LE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadsTest/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -60,9 +55,10 @@
     <session id="263948567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="5" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -188,9 +184,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,7 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,7 +222,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,17 +283,18 @@
       <workItem from="1541854353818" duration="3134000" />
       <workItem from="1541947899591" duration="6000" />
       <workItem from="1541947924168" duration="17000" />
+      <workItem from="1542044218575" duration="425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21121000" />
+    <option name="totallyTimeSpent" value="21546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2761087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26967096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -335,6 +332,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HW9.3.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConsumerProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -345,9 +345,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW9.3.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NotANumberException.java">
       <provider selected="true" editor-type-id="text-editor">
