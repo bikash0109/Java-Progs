@@ -1,18 +1,29 @@
+/*
+ * Program Name: qClientUdp.java
+ *
+ * Version :  1.0
+ *
+ * @author: Bikash Roy (br8376)
+ * @author: Tanay Bhardwaj
+ *
+ *
+ * This program send a token to connect to the server, after which the server sends back a quote to be printed by the
+ * client.
+ */
+
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketTimeoutException;
+import java.net.*;
 
 public class qClientUdp {
     public static void main(String args[]) {
-        if (args.length < 1) {
-            System.out.println("Arguments Missing for client: <port>");
+        if (args.length < 2) {
+            System.out.println("Arguments Missing for client: <hostname> <port>");
             return;
         }
-        int port = Integer.parseInt(args[0]);
         try {
-            InetAddress address = InetAddress.getLocalHost();
+            int port = Integer.parseInt(args[1]);
+            String host = args[0];
+            InetAddress address = InetAddress.getByName(host);
             DatagramSocket socket = new DatagramSocket();
 
             DatagramPacket request = new DatagramPacket(new byte[1], 1, address, port);
@@ -27,11 +38,15 @@ public class qClientUdp {
 
             System.out.println("quote of the day: - " + new String(buffer, 0, response.getLength()));
         } catch (SocketTimeoutException ex) {
-            System.out.println("Timeout error: " + ex.getMessage());
+            System.err.println("Timeout error: " + ex.getMessage());
             ex.printStackTrace();
-        } catch (IOException ex) {
-            System.out.println("Client error: " + ex.getMessage());
+        }catch (UnknownHostException ex){
+            System.err.println("Unknown host: " + ex.getMessage());
+        }catch (IOException ex) {
+            System.err.println("Client error: " + ex.getMessage());
             ex.printStackTrace();
+        }catch (NumberFormatException ex){
+            System.err.println("Not a number: " + ex.getMessage());
         }
     }
 }

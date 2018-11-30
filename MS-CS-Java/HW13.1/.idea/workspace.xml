@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08688e5c-5f1a-4b03-a021-c2bd7a331bef" name="Default Changelist" comment="">
+    <list default="true" id="4102e89b-3b54-4896-9bfc-3561dd17c4ff" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../HW10.2/src/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HW10.2/src/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HW10.2/src/.idea/src.iml" afterDir="false" />
@@ -17,19 +17,19 @@
       <change afterPath="$PROJECT_DIR$/../HW12.3/src/MyStorage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HW12.3/src/Producer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HW12.3/src/ProducerConsumerServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/HW13.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/src/Quotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/src/qClientTcp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW13.1/src/qServerTcp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW13.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/qClientTcp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/qServerTcp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW11.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW12.2/qClientUdp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW12.2/qClientUdp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qClientUdp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qClientUdp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qServerUdp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qServerUdp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW12.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12.2/out/production/HW12.2/qClientUdp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW12.2/out/production/HW12.2/qClientUdp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12.2/src/qClientUdp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW12.2/src/qClientUdp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW12.2/src/qServerUdp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW12.2/src/qServerUdp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5.3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8.2/out/production/HW8.2/Grep.class" afterDir="false" />
@@ -44,14 +44,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="522098383">
+    <session id="847699071">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -68,12 +67,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="418" />
+          <entry key="java" value="415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="418" />
+          <entry key="JAVA" value="415" />
         </counts>
       </usages-collector>
     </session>
@@ -81,10 +80,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/qClientUdp.java">
+        <entry file="file://$PROJECT_DIR$/src/qServerTcp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="303">
+              <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,12 +92,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/qServerUdp.java">
+        <entry file="file://$PROJECT_DIR$/src/qClientTcp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="56" column="72" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="72" />
+            <state relative-caret-position="112">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <element signature="e#0#2311#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -112,14 +110,26 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>in</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/qServerUdp.java" />
-        <option value="$PROJECT_DIR$/src/qClientUdp.java" />
+        <option value="$PROJECT_DIR$/src/qClientTcp.java" />
+        <option value="$PROJECT_DIR$/src/qServerTcp.java" />
       </list>
     </option>
   </component>
@@ -129,7 +139,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
@@ -141,32 +151,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="HW12.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW12.2" type="462c0819:PsiDirectoryNode" />
+              <item name="HW13.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW13.1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HW12.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW12.2" type="462c0819:PsiDirectoryNode" />
+              <item name="HW13.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW13.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,31 +194,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.qClientUdp">
-    <configuration name="qClientUdp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="qClientUdp" />
-      <module name="HW12.2" />
-      <option name="PROGRAM_PARAMETERS" value="localhost 1234" />
+  <component name="RunManager" selected="Application.qClientTcp">
+    <configuration name="qClientTcp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qClientTcp" />
+      <module name="HW13.1" />
+      <option name="PROGRAM_PARAMETERS" value="localhost 17" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="qServerUdp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="qServerUdp" />
-      <module name="HW12.2" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/Quotes.txt 1234" />
+    <configuration name="qServerTcp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qServerTcp" />
+      <module name="HW13.1" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/Quotes.txt 17" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.qServerUdp" />
-      <item itemvalue="Application.qClientUdp" />
+      <item itemvalue="Application.qServerTcp" />
+      <item itemvalue="Application.qClientTcp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.qClientUdp" />
-        <item itemvalue="Application.qServerUdp" />
+        <item itemvalue="Application.qClientTcp" />
+        <item itemvalue="Application.qServerTcp" />
       </list>
     </recent_temporary>
   </component>
@@ -213,27 +227,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08688e5c-5f1a-4b03-a021-c2bd7a331bef" name="Default Changelist" comment="" />
-      <created>1542460459953</created>
+      <changelist id="4102e89b-3b54-4896-9bfc-3561dd17c4ff" name="Default Changelist" comment="" />
+      <created>1543550049394</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542460459953</updated>
-      <workItem from="1542460461459" duration="2805000" />
-      <workItem from="1542634667631" duration="1621000" />
-      <workItem from="1542680039977" duration="1231000" />
-      <workItem from="1543512908761" duration="922000" />
-      <workItem from="1543588494286" duration="1408000" />
+      <updated>1543550049394</updated>
+      <workItem from="1543550050917" duration="2788000" />
+      <workItem from="1543582955026" duration="2168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7987000" />
+    <option name="totallyTimeSpent" value="4956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -241,7 +252,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,26 +277,71 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/qClientTcp.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(String)in.readLine()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>in.readLine()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>in.read()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inFromServer.read()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inFromUser</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inFromUser.read()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Quotes.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qClientUdp.java">
+    <entry file="file://$PROJECT_DIR$/src/qServerTcp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="303">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/qServerUdp.java">
+    <entry file="file://$PROJECT_DIR$/src/qClientTcp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="56" column="72" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="72" />
+        <state relative-caret-position="112">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#0#2311#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

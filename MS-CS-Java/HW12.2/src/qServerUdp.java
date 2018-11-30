@@ -1,9 +1,21 @@
+/*
+ * Program Name: qServerUdp.java
+ *
+ * Version :  1.0
+ *
+ * @author: Bikash Roy (br8376)
+ * @author: Tanay Bhardwaj
+ *
+ * This program receives a token to connect from a client, after which it sends a quote to be printed by the
+ * client.
+ */
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.InetAddress;
 import java.net.SocketException;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +31,7 @@ public class qServerUdp {
         random = new Random();
     }
 
+    // Function that waits for the client token, and later send a quote
     private void sendQuotes() throws IOException {
         while (true) {
             DatagramPacket request = new DatagramPacket(new byte[1], 1);

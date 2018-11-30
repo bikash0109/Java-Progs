@@ -29,9 +29,6 @@ public class Grep {
 
     // method to match the pattern
     public static void findGrep(String word, Vector<String> fileName, Vector<String> instructions) throws Exception {
-        if (instructions.contains("-q")) {
-            return;
-        }
         BufferedReader br = null;
         boolean has_c = instructions.contains("-c");
         boolean has_l = instructions.contains("-l");
@@ -43,6 +40,7 @@ public class Grep {
         Pattern pattern = Pattern.compile(word);
         Matcher matcher = pattern.matcher("");
         if(fileName.size() > 0){
+            int finalCount = 0;
             for (String file : fileName) {
                 int count = 0;
                 String line;
@@ -59,7 +57,15 @@ public class Grep {
                         matchedLine += line + "\n";
                     }
                 }
+                finalCount += count;
                 outputSet.put(file, matchedLine + "@" + count);
+            }
+            if (instructions.contains("-q")) {
+                if(finalCount == 0) {
+                    System.exit(1);
+                }else {
+                    System.exit(0);
+                }
             }
             br.close();
         }else {
@@ -91,9 +97,14 @@ public class Grep {
                     String valuePart = value.substring(0, value.indexOf("@"))
                             .replace("\n", "\n" + key + " : ");
                     String valuePartSub = valuePart.length() == 0 ? " " : valuePart.substring(0, valuePart.lastIndexOf(key));
-                    System.out.println(key
-                            + " : " +
-                            valuePartSub);
+                    System.out.println(key + " : " + valuePartSub);
+                    while (true) {
+                        Scanner sc = new Scanner(System.in);
+                        String input = sc.next();
+                        if (valuePartSub.contains(input)) {
+                            System.out.println("(standard input):" + input);
+                        }
+                    }
                 });
                 break;
             case "-c":
