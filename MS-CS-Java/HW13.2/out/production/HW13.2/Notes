@@ -1,0 +1,178 @@
+MessageQueue.java
+-----------------
+import java.util.*;
+import java.rmi.*;
+
+public interface MessageQueue
+        extends java.rmi.Remote
+{
+        public void send (Object item) throws
+                java.rmi.RemoteException;
+
+        public Object receive() throws
+                java.rmi.RemoteException;
+}
+
+
+MessageQueueImpl.java
+---------------------
+import java.util.*;
+import java.rmi.*;
+
+public class MessageQueueImpl
+        extends java.rmi.server.UnicastRemoteObject
+        implements MessageQueue {
+
+      public MessageQueueImpl()
+           throws RemoteException {
+        queue = new Vector();
+      }
+
+      public synchronized void send(Object item)
+           throws RemoteException {
+        queue.addElement(item);
+
+        System.out.println("Producer entered " + item +
+                " size = " + queue.size());
+      }
+
+      public synchronized Object receive()
+           throws RemoteException {
+        Object item;
+
+        if (queue.size() == 0) return null;
+        else {
+           item = queue.firstElement();
+
+           queue.removeElementAt(0);
+
+
+           System.out.println("Consumer removed " + item +
+
+                " size = " + queue.size());
+
+           return item;
+
+        }
+      }
+
+      public static void main (String args[]) {
+        try {
+           MessageQueue server = new MessageQueueImpl();
+           Naming.rebind("MessageServer", server);
+           System.out.println("Server Bound");
+        }
+        catch(Exception e) {
+           System.err.println(e);
+        }
+      }
+
+      private Vector queue;
+}
+
+
+Factory.java
+------------
+import java.util.*;
+import java.rmi.*;
+
+public class Factory
+{
+   public Factory() {
+      // remote object
+      MessageQueue mailBox;
+
+      System.setSecurityManager(new RMISecurityManager());
+
+      try {
+        mailBox = (MessageQueue)Naming.lookup
+                ("rmi://127.0.0.1/MessageServer");
+
+        Producer ProducerThread = new Producer(mailBox);
+        Consumer ConsumerThread = new Consumer(mailBox);
+
+        ProducerThread.start();
+        ConsumerThread.start();
+      }
+      catch (Exception e) {
+        System.err.println(e);
+      }
+   }
+
+   public static void napping() {
+      int sleepTime = (int)(NAP_TIME * Math.random());
+      try { Thread.sleep(sleepTime*1000); }
+      catch (InterruptedException e) { }
+   }
+
+   public static void main(String args[]) {
+      Factory client = new Factory();
+   }
+
+   private static final int NAP_TIME = 5;
+
+}
+
+
+Producer.java
+-------------
+import java.util.*;
+
+class Producer extends Thread
+{
+        public Producer(MessageQueue m) {
+            mbox = m;
+        }
+
+        public void run() {
+            Date message;
+
+            while (true) {
+                Factory.napping();
+
+                message = new Date();
+
+                try {
+                   mbox.send(message);
+                }
+                catch (Exception e) {
+                   System.err.println(e);
+                }
+            }
+        }
+
+        private MessageQueue mbox;
+}
+
+
+Consumer.java
+-------------
+import java.util.*;
+
+class Consumer extends Thread
+{
+        public Consumer(MessageQueue m) {
+            mbox = m;
+        }
+
+        public void run() {
+            Date message;
+
+            while (true) {
+                Factory.napping();
+
+                try {
+                   message = (Date)mbox.receive();
+                   if (message != null) {
+                   // consume the item
+                   ;
+                   }
+                }
+                catch (Exception e) {
+                   System.err.println(e);
+                }
+            }
+        }
+
+        private MessageQueue mbox;
+}

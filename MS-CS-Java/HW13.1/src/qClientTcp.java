@@ -1,3 +1,15 @@
+/*
+ * Program Name: qClientTcp.java
+ *
+ * Version :  1.0
+ *
+ * @author: Bikash Roy (br8376)
+ * @author: Tanay Bhardwaj
+ *
+ * This program creates a end point socket with a hostname and port, and when connection is successful, it prints the
+ * quote
+ */
+
 import java.io.*;
 import java.net.*;
 
