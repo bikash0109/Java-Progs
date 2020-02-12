@@ -1,46 +1,25 @@
-import javax.swing.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.*;
 
-class Test{
-    static void display(){
-        System.out.println("Buggy Bread");
+class GFG {
+    public static void countFrequencies(ArrayList<String> list)
+    {
+
+        // hash set is created and elements of
+        // arraylist are insertd into it
+        Set<String> st = new HashSet<>(list);
+        for (String s : st)
+            System.out.println(s + ": " + Collections.frequency(list, s));
     }
-}
 
-class Demo{
-
-    public static String reverse(String str){
-        if(str.length() <= 1){
-            return str;
-        }
-        return reverse(str.substring(1)) + str.charAt(0);
-    }
-
-    static int a = 1111;
-
-    static {
-        a = a-- - --a;
-    }
-    {a = a++ + ++a;}
-    public static void main(String... args){
-//        Test t = null;
-//        t.display();
-          //\u000d System.out.println(reverse("bikash"));
-          //\nSystem.out.println(reverse("bikash"));
-        System.out.println(a);
-        String s = "One" + (1 + 2) + "Two";
-        System.out.println(s);
-        int i = 10 + + 11 - - 12 + + 13 - - 14 + + 15;
-        System.out.println(i);
-
-//        final class Constants {public static String name = "PI";}
-
-        int i1 = 400;
-        int i2 = 400;
-        System.out.println(i1==i2);
-
-        Integer i3 = 128;
-        Integer i4 = 128;
-        System.out.println(i3 == i4);
-        System.out.println(Math.min(Double.MIN_VALUE, 0.0d));
+    public static void main(String[] args)
+    {
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("Geeks");
+        list.add("for");
+        list.add("Geeks");
+        countFrequencies(list);
     }
 }
